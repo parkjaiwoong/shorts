@@ -1,0 +1,25 @@
+{
+  "jobId": "Y_YeC1scN7k8CiJcrzDWW",
+  "runId": "20260120_170340",
+  "topic": "2026년 현재, 직장인이 무조건 써야 하는 AI 에이전트 TOP 3",
+  "stage": "error",
+  "createdAt": "2026-01-20T08:03:40.372Z",
+  "updatedAt": "2026-01-20T08:03:43.314Z",
+  "confirmBeforeRender": true,
+  "steps": {
+    "script": {
+      "state": "running",
+      "startedAt": "2026-01-20T08:03:41.800Z"
+    },
+    "images": {
+      "state": "pending"
+    },
+    "narration": {
+      "state": "pending"
+    },
+    "render": {
+      "state": "pending"
+    }
+  },
+  "error": "Gemini gemini-2.0-flash 오류 (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Invalid JSON payload received. Unknown name \\\"response_mime_type\\\" at 'generation_config': Cannot find field.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.BadRequest\",\n        \"fieldViolations\": [\n          {\n            \"field\": \"generation_config\",\n            \"description\": \"Invalid JSON payload received. Unknown name \\\"response_mime_type\\\" at 'generation_config': Cannot find field.\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+}

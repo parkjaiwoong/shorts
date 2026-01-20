@@ -1,0 +1,107 @@
+{
+  "jobId": "SB2bXh3ostzbCBYEhKCEL",
+  "runId": "20260120_175151",
+  "topic": "2026년, 이 직업은 이제 6개월 남았습니다",
+  "stage": "done",
+  "createdAt": "2026-01-20T08:51:51.882Z",
+  "updatedAt": "2026-01-20T09:02:01.410Z",
+  "confirmBeforeRender": true,
+  "steps": {
+    "script": {
+      "state": "done",
+      "startedAt": "2026-01-20T08:51:53.543Z",
+      "endedAt": "2026-01-20T08:57:11.880Z",
+      "durationMs": 318337
+    },
+    "images": {
+      "state": "done",
+      "startedAt": "2026-01-20T08:57:11.913Z",
+      "endedAt": "2026-01-20T08:57:12.002Z",
+      "durationMs": 89
+    },
+    "narration": {
+      "state": "done",
+      "startedAt": "2026-01-20T08:57:12.005Z",
+      "endedAt": "2026-01-20T08:57:12.073Z",
+      "durationMs": 68
+    },
+    "render": {
+      "state": "done",
+      "startedAt": "2026-01-20T08:57:12.274Z",
+      "endedAt": "2026-01-20T09:02:01.410Z",
+      "durationMs": 289136
+    }
+  },
+  "geminiScript": {
+    "hook": "2026년? 넌 이제 6개월 남았다! 😱",
+    "full_script": "2026년? 넌 이제 6개월 남았다! 😱 지금 이 순간에도 AI가 미친 속도로 발전 중인 거 알지? 🤖 네 직업이 사라질 수 있다는 경고등이 켜진 지 오래야. [자막: #AI시대 #직업소멸] 단순 반복 업무? 고객 응대? 이제 AI가 다 해! 콜센터 직원, 데이터 입력 전문가, 심지어 일부 디자인 업무까지! 🤯 이미 많은 기업들이 로봇과 AI로 대체 중이라고. [자막: #자동화혁명 #위기의직업] 이게 남의 얘기 같다고? 천만의 말씀! 변화에 적응하지 못하면 도태되는 건 시간 문제야. 너의 미래가 걸린 일이라고! 빨리 정신 차려야 해! 🔥 하지만 걱정만 할 필요는 없어! ✋ AI가 못하는 영역, 즉 창의력, 비판적 사고, 공감 능력 같은 '인간 고유의 역량'을 키우면 살아남을 수 있어! 오히려 새로운 기회가 쏟아질 거야! [자막: #인간의영역 #새로운기회] 자, 그럼 너는 어떤 준비를 하고 있어? 댓글로 네 생각을 알려줘! 👇 그리고 이 영상이 도움됐다면 좋아요 박고 구독 눌러서 다음 영상도 놓치지 마! ✅",
+    "scenes": [
+      {
+        "text": "2026년? 넌 이제 6개월 남았다! 😱",
+        "image_prompt": "A young adult (10-40s age range) looking shocked and worried, standing in front of a futuristic digital clock counting down. The background shows blurred images of various traditional workplaces. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant."
+      },
+      {
+        "text": "지금 이 순간에도 AI가 미친 속도로 발전 중인 거 알지? 🤖 네 직업이 사라질 수 있다는 경고등이 켜진 지 오래야.",
+        "image_prompt": "A sleek, humanoid robot with glowing blue eyes operating a complex control panel, while a human worker looks on with a mix of awe and concern. Futuristic office environment. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant."
+      },
+      {
+        "text": "단순 반복 업무? 고객 응대? 이제 AI가 다 해! 콜센터 직원, 데이터 입력 전문가, 심지어 일부 디자인 업무까지! 🤯",
+        "image_prompt": "A split screen showing a robot efficiently handling multiple customer service calls on one side, and another robot accurately processing data entry at lightning speed on the other. Human figures are fading in the background. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant."
+      },
+      {
+        "text": "하지만 걱정만 할 필요는 없어! ✋ AI가 못하는 영역, 즉 창의력, 비판적 사고, 공감 능력 같은 '인간 고유의 역량'을 키우면 살아남을 수 있어!",
+        "image_prompt": "A diverse group of young adults collaborating enthusiastically, brainstorming ideas around a holographic table, demonstrating creativity and critical thinking. Bright, hopeful atmosphere. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant."
+      },
+      {
+        "text": "자, 그럼 너는 어떤 준비를 하고 있어? 댓글로 네 생각을 알려줘! 👇 그리고 이 영상이 도움됐다면 좋아요 박고 구독 눌러서 다음 영상도 놓치지 마! ✅",
+        "image_prompt": "A friendly, diverse group of young adults smiling and gesturing towards the viewer, with icons for 'like', 'subscribe', and 'comment' floating digitally around them. Interactive and inviting. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant."
+      }
+    ],
+    "video_title": "🚨 2026년, 너의 직업은 이제 6개월 남았다? (충격주의) 😱 #직업소멸 #AI시대 #미래직업 #취업준비 #세대공감"
+  },
+  "script": {
+    "title": "🚨 2026년, 너의 직업은 이제 6개월 남았다? (충격주의) 😱 #직업소멸 #AI시대 #미래직업 #취업준비 #세대공감",
+    "scenes": [
+      {
+        "narration": "2026년? 넌 이제 6개월 남았다! 😱",
+        "imagePrompt": "A young adult (10-40s age range) looking shocked and worried, standing in front of a futuristic digital clock counting down. The background shows blurred images of various traditional workplaces. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant., Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render, Detailed Clock Face with clear hands",
+        "subtitle": "2026년"
+      },
+      {
+        "narration": "지금 이 순간에도 AI가 미친 속도로 발전 중인 거 알지? 🤖 네 직업이 사라질 수 있다는 경고등이 켜진 지 오래야.",
+        "imagePrompt": "A sleek, humanoid robot with glowing blue eyes operating a complex control panel, while a human worker looks on with a mix of awe and concern. Futuristic office environment. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant., Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "지금 이 순간에도 AI가 미친 속도로 발전 "
+      },
+      {
+        "narration": "단순 반복 업무? 고객 응대? 이제 AI가 다 해! 콜센터 직원, 데이터 입력 전문가, 심지어 일부 디자인 업무까지! 🤯",
+        "imagePrompt": "A split screen showing a robot efficiently handling multiple customer service calls on one side, and another robot accurately processing data entry at lightning speed on the other. Human figures are fading in the background. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant., Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "단순 반복 업무"
+      },
+      {
+        "narration": "하지만 걱정만 할 필요는 없어! ✋ AI가 못하는 영역, 즉 창의력, 비판적 사고, 공감 능력 같은 '인간 고유의 역량'을 키우면 살아남을 수 있어!",
+        "imagePrompt": "A diverse group of young adults collaborating enthusiastically, brainstorming ideas around a holographic table, demonstrating creativity and critical thinking. Bright, hopeful atmosphere. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant., Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "하지만 걱정만 할 필요는 없어"
+      },
+      {
+        "narration": "자, 그럼 너는 어떤 준비를 하고 있어? 댓글로 네 생각을 알려줘! 👇 그리고 이 영상이 도움됐다면 좋아요 박고 구독 눌러서 다음 영상도 놓치지 마! ✅",
+        "imagePrompt": "A friendly, diverse group of young adults smiling and gesturing towards the viewer, with icons for 'like', 'subscribe', and 'comment' floating digitally around them. Interactive and inviting. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant., Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "자, 그럼 너는 어떤 준비를 하고 있어"
+      }
+    ]
+  },
+  "images": [
+    "/runs/20260120_175151/output/images/scene-1.png",
+    "/runs/20260120_175151/output/images/scene-2.png",
+    "/runs/20260120_175151/output/images/scene-3.png",
+    "/runs/20260120_175151/output/images/scene-4.png",
+    "/runs/20260120_175151/output/images/scene-5.png"
+  ],
+  "audio": [
+    "/runs/20260120_175151/output/audio/scene-1.mp3",
+    "/runs/20260120_175151/output/audio/scene-2.mp3",
+    "/runs/20260120_175151/output/audio/scene-3.mp3",
+    "/runs/20260120_175151/output/audio/scene-4.mp3",
+    "/runs/20260120_175151/output/audio/scene-5.mp3"
+  ],
+  "videoUrl": "/runs/20260120_175151/output/final.mp4"
+}

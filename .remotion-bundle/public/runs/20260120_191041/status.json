@@ -1,0 +1,113 @@
+{
+  "jobId": "_TBE90ZnuE8KsMdF77cBO",
+  "runId": "20260120_191041",
+  "topic": "미래투자는 어디일까",
+  "stage": "error",
+  "createdAt": "2026-01-20T10:10:41.259Z",
+  "updatedAt": "2026-01-20T10:15:04.585Z",
+  "confirmBeforeRender": false,
+  "mode": "auto",
+  "steps": {
+    "script": {
+      "state": "done",
+      "startedAt": "2026-01-20T10:10:42.339Z",
+      "endedAt": "2026-01-20T10:11:01.801Z",
+      "durationMs": 19462
+    },
+    "images": {
+      "state": "done",
+      "startedAt": "2026-01-20T10:11:01.806Z",
+      "endedAt": "2026-01-20T10:14:06.643Z",
+      "durationMs": 184837
+    },
+    "narration": {
+      "state": "done",
+      "startedAt": "2026-01-20T10:14:06.645Z",
+      "endedAt": "2026-01-20T10:14:29.884Z",
+      "durationMs": 23239
+    },
+    "thumbnail": {
+      "state": "done",
+      "startedAt": "2026-01-20T10:14:29.886Z",
+      "endedAt": "2026-01-20T10:15:01.910Z",
+      "durationMs": 32024
+    },
+    "render": {
+      "state": "running",
+      "startedAt": "2026-01-20T10:15:01.938Z"
+    }
+  },
+  "geminiScript": {
+    "hook": "아직도 주식 코인만 봐? 📉 미래 투자, 여기 몰빵해라! 🤑",
+    "full_script": "아직도 주식 코인만 봐? 📉 미래 투자, 여기 몰빵해라! 🤑 다들 \"아 주식 어떡하지?\" \"코인 또 물렸네...\" 이러고 있지? [자막: 과거는 잊어!] 그거 알아? 이미 옛날 얘기야. [자막: 놉!] 진짜 부자들은 이미 다른 거 보고 있어. 바로 '이것'에 투자한다고! 🚀 [자막: 미래 핵심!] 인공지능, 로봇, 바이오 같은 기술은 이미 성장 끝물이라고 생각하는 사람 많지? 천만에! [자막: 착각은 금물!] 진짜 핵심은 '데이터'와 '연결'이야. 이 두 가지를 지배하는 기술에 투자해야 해. 💡 메타버스? 웹3? 다 좋아. 근데 그 기반을 꽉 잡고 있는 기술이 뭔지 알아야지! 정답은 바로 '퀀텀 컴퓨팅'과 '에너지 저장 기술'! ⚡ 이 두 분야는 아직 초기라서 지금 들어가면 대박 각이야. 기존 기술의 한계를 뛰어넘을 게임 체인저라고! [자막: 게임 체인저!] 이 분야를 선점하는 기업이 미래를 지배할 거야. 늦기 전에 지금 바로 이 키워드 검색해 봐! 🔍 놓치면 후회한다? 구독하고 부자 되자! 🔔",
+    "scenes": [
+      {
+        "text": "아직도 주식 코인만 봐? 📉 미래 투자, 여기 몰빵해라! 🤑",
+        "image_prompt": "A person with a worried expression looking at multiple holographic screens displaying falling stock charts and cryptocurrency graphs. The room is dimly lit, reflecting financial stress. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant."
+      },
+      {
+        "text": "다들 \"아 주식 어떡하지?\" \"코인 또 물렸네...\" 이러고 있지? [자막: 과거는 잊어!] 그거 알아? 이미 옛날 얘기야. [자막: 놉!] 진짜 부자들은 이미 다른 거 보고 있어. 바로 '이것'에 투자한다고! 🚀 [자막: 미래 핵심!]",
+        "image_prompt": "On one side, people in outdated clothing looking confused at old rotary phones and bulky computers. On the other side, a bright, glowing, abstract symbol representing future technology emerges from a rift, drawing attention. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant."
+      },
+      {
+        "text": "인공지능, 로봇, 바이오 같은 기술은 이미 성장 끝물이라고 생각하는 사람 많지? 천만에! [자막: 착각은 금물!] 진짜 핵심은 '데이터'와 '연결'이야. 이 두 가지를 지배하는 기술에 투자해야 해. 💡 메타버스? 웹3? 다 좋아. 근데 그 기반을 꽉 잡고 있는 기술이 뭔지 알아야지!",
+        "image_prompt": "A futuristic, complex network of interconnected glowing data points and lines, forming a brain-like structure. Various icons representing AI, Metaverse, and Web3 are embedded within the network, with a large, glowing question mark at the center. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant."
+      },
+      {
+        "text": "정답은 바로 '퀀텀 컴퓨팅'과 '에너지 저장 기술'! ⚡ 이 두 분야는 아직 초기라서 지금 들어가면 대박 각이야. 기존 기술의 한계를 뛰어넘을 게임 체인저라고! [자막: 게임 체인저!] 이 분야를 선점하는 기업이 미래를 지배할 거야.",
+        "image_prompt": "A dynamic scene showing abstract quantum computing elements (glowing, interconnected qubits) on one side, seamlessly blending into sleek, high-tech energy storage units (futuristic batteries) on the other. Both elements are radiating power and innovation. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant."
+      },
+      {
+        "text": "늦기 전에 지금 바로 이 키워드 검색해 봐! 🔍 놓치면 후회한다? 구독하고 부자 되자! 🔔",
+        "image_prompt": "A stylized, futuristic hand pointing at a transparent holographic screen with a glowing search bar displaying 'Quantum Computing' and 'Energy Storage'. Below it, a 'Subscribe' button pulses brightly. The background is a blurred, high-tech cityscape. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant."
+      }
+    ],
+    "video_title": "미래 투자 100배 각! 🤑 주식 코인 말고 '이것' 몰빵해라! #미래투자 #퀀텀컴퓨팅 #에너지기술 #부자되는법 #숏폼재테크"
+  },
+  "script": {
+    "title": "미래 투자 100배 각! 🤑 주식 코인 말고 '이것' 몰빵해라! #미래투자 #퀀텀컴퓨팅 #에너지기술 #부자되는법 #숏폼재테크",
+    "scenes": [
+      {
+        "narration": "아직도 주식 코인만 봐? 📉 미래 투자, 여기 몰빵해라! 🤑",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A person with a worried expression looking at multiple holographic screens displaying falling stock charts and cryptocurrency graphs. The room is dimly lit, reflecting financial stress. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant., Korean office worker or Seoulite, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "아직도 주식 코인만 봐"
+      },
+      {
+        "narration": "다들 \"아 주식 어떡하지?\" \"코인 또 물렸네...\" 이러고 있지? [자막: 과거는 잊어!] 그거 알아? 이미 옛날 얘기야. [자막: 놉!] 진짜 부자들은 이미 다른 거 보고 있어. 바로 '이것'에 투자한다고! 🚀 [자막: 미래 핵심!]",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, On one side, people in outdated clothing looking confused at old rotary phones and bulky computers. On the other side, a bright, glowing, abstract symbol representing future technology emerges from a rift, drawing attention. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant., Korean office worker or Seoulite, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "다들 \"아 주식 어떡하지"
+      },
+      {
+        "narration": "인공지능, 로봇, 바이오 같은 기술은 이미 성장 끝물이라고 생각하는 사람 많지? 천만에! [자막: 착각은 금물!] 진짜 핵심은 '데이터'와 '연결'이야. 이 두 가지를 지배하는 기술에 투자해야 해. 💡 메타버스? 웹3? 다 좋아. 근데 그 기반을 꽉 잡고 있는 기술이 뭔지 알아야지!",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A futuristic, complex network of interconnected glowing data points and lines, forming a brain-like structure. Various icons representing AI, Metaverse, and Web3 are embedded within the network, with a large, glowing question mark at the center. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant., office interior with Namsan Tower visible through the window, computer monitor showing Hangul text, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "인공지능, 로봇, 바이오 같은 기술은 이미 "
+      },
+      {
+        "narration": "정답은 바로 '퀀텀 컴퓨팅'과 '에너지 저장 기술'! ⚡ 이 두 분야는 아직 초기라서 지금 들어가면 대박 각이야. 기존 기술의 한계를 뛰어넘을 게임 체인저라고! [자막: 게임 체인저!] 이 분야를 선점하는 기업이 미래를 지배할 거야.",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A dynamic scene showing abstract quantum computing elements (glowing, interconnected qubits) on one side, seamlessly blending into sleek, high-tech energy storage units (futuristic batteries) on the other. Both elements are radiating power and innovation. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant., 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "정답은 바로 '퀀텀 컴퓨팅'과 '에너지 저장"
+      },
+      {
+        "narration": "늦기 전에 지금 바로 이 키워드 검색해 봐! 🔍 놓치면 후회한다? 구독하고 부자 되자! 🔔",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A stylized, futuristic hand pointing at a transparent holographic screen with a glowing search bar displaying 'Quantum Computing' and 'Energy Storage'. Below it, a 'Subscribe' button pulses brightly. The background is a blurred, high-tech cityscape. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant., 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "늦기 전에 지금 바로 이 키워드 검색해 봐"
+      }
+    ]
+  },
+  "images": [
+    "/runs/20260120_191041/output/images/scene-1.png",
+    "/runs/20260120_191041/output/images/scene-2.png",
+    "/runs/20260120_191041/output/images/scene-3.png",
+    "/runs/20260120_191041/output/images/scene-4.png",
+    "/runs/20260120_191041/output/images/scene-5.png"
+  ],
+  "audio": [
+    "/runs/20260120_191041/output/audio/scene-1.mp3",
+    "/runs/20260120_191041/output/audio/scene-2.mp3",
+    "/runs/20260120_191041/output/audio/scene-3.mp3",
+    "/runs/20260120_191041/output/audio/scene-4.mp3",
+    "/runs/20260120_191041/output/audio/scene-5.mp3"
+  ],
+  "thumbnail": "/runs/20260120_191041/output/thumbnail.png",
+  "error": "Error while downloading http://localhost:3001/public/runs/20260120_191041/output/audio/scene-1.mp3: Error: Received a status code of 404 while downloading file http://localhost:3001/public/runs/20260120_191041/output/audio/scene-1.mp3.\nThe response body was:\n---\n{\"statusCode\":404,\"message\":\"The requested path (D:\\\\ai\\\\SHOT_LO_PRO\\\\.remotion-bundle\\\\public\\\\runs\\\\20260120_191041\\\\output\\\\audio\\\\scene-1.mp3) could not be found\"}\n---\n    at readFile (D:\\ai\\SHOT_LO_PRO\\node_modules\\@remotion\\renderer\\dist\\assets\\read-file.js:59:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+}

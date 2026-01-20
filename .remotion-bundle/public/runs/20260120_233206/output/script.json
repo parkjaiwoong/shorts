@@ -1,0 +1,27 @@
+{
+  "hook": "미래의 투자처가 이곳에?!",
+  "full_script": "여러분, 오늘은 앞으로의 미래 투자가 어디에 집중되어야 할지 알아보려고 해요. 지금 당장 투자해야 할 분야는 무엇일까요? 첫 번째로, 인공지능입니다. AI는 우리 삶의 모든 분야에 영향을 미치고 있어요. 다음으로는 지속 가능성입니다. 환경을 생각하는 기업들이 뜨고 있죠. 그리고 마지막으로, 우주 산업입니다. 이제 인류는 우주로 눈을 돌리고 있어요. 하지만 이렇게 좋은 투자처가 있는데도 불구하고, 우리는 쉽게 간과할 수 있어요. 결론적으로, 미래 투자는 기술과 환경을 고려해야 합니다. 여러분은 어떤 분야에 투자할 건가요? 댓글로 알려주세요!",
+  "scenes": [
+    {
+      "text": "미래의 투자처가 이곳에?!",
+      "image_prompt": "A futuristic city skyline with advanced technology, showcasing various AI applications, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+    },
+    {
+      "text": "첫 번째로, 인공지능입니다. AI는 우리 삶의 모든 분야에 영향을 미치고 있어요.",
+      "image_prompt": "An AI robot interacting with humans in a modern setting, surrounded by data streams, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+    },
+    {
+      "text": "다음으로는 지속 가능성입니다. 환경을 생각하는 기업들이 뜨고 있죠.",
+      "image_prompt": "A green urban landscape with solar panels and wind turbines, people engaging in eco-friendly activities, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+    },
+    {
+      "text": "그리고 마지막으로, 우주 산업입니다. 이제 인류는 우주로 눈을 돌리고 있어요.",
+      "image_prompt": "A rocket launching into space with a backdrop of planets and stars, showcasing space exploration, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+    },
+    {
+      "text": "결론적으로, 미래 투자는 기술과 환경을 고려해야 합니다.",
+      "image_prompt": "A collage of AI, sustainability, and space exploration symbols, representing the future of investment, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+    }
+  ],
+  "video_title": "#미래투자 #AI #지속가능성 #우주산업"
+}

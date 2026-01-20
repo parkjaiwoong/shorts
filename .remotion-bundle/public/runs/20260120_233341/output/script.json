@@ -1,0 +1,27 @@
+{
+  "hook": "미래 투자의 방향이 궁금하다고? 당신의 선택이 돈을 부른다!",
+  "full_script": "안녕하세요 여러분! 오늘은 우리가 앞으로 어떤 분야에 투자해야 할지 알아보겠습니다. 각 분야의 트렌드와 가능성을 살펴보며, 여러분이 현명한 결정을 내릴 수 있도록 도와드릴게요. 첫 번째, 인공지능입니다. AI는 이미 많은 산업에서 혁신을 주도하고 있죠. 두 번째, 지속 가능한 에너지입니다. 기후 변화가 심각해지면서 이 분야의 필요성이 커지고 있습니다. 세 번째, 블록체인 기술입니다. 이 기술은 금융과 데이터를 안전하게 관리하는 데 필수적인 요소로 자리 잡고 있습니다. 하지만 이러한 분야들 중에서도 어떤 것이 가장 유망할까요? 결론적으로, 여러분의 투자 판단에 따라 미래가 달라질 수 있습니다. 그러니 반드시 신중하게 선택하세요! 그리고 더 많은 정보가 필요하다면 구독과 좋아요 눌러주세요!",
+  "scenes": [
+    {
+      "text": "안녕하세요 여러분! 오늘은 우리가 앞으로 어떤 분야에 투자해야 할지 알아보겠습니다.",
+      "image_prompt": "A person speaking enthusiastically about future investments, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+    },
+    {
+      "text": "첫 번째, 인공지능입니다. AI는 이미 많은 산업에서 혁신을 주도하고 있죠.",
+      "image_prompt": "A futuristic AI robot interacting with humans in a modern office, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+    },
+    {
+      "text": "두 번째, 지속 가능한 에너지입니다. 기후 변화가 심각해지면서 이 분야의 필요성이 커지고 있습니다.",
+      "image_prompt": "A vibrant solar farm with wind turbines under a clear blue sky, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+    },
+    {
+      "text": "세 번째, 블록체인 기술입니다. 이 기술은 금융과 데이터를 안전하게 관리하는 데 필수적인 요소로 자리 잡고 있습니다.",
+      "image_prompt": "A digital representation of blockchain technology with interconnected nodes and data streams, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+    },
+    {
+      "text": "결론적으로, 여러분의 투자 판단에 따라 미래가 달라질 수 있습니다.",
+      "image_prompt": "A person contemplating investment choices in a futuristic digital environment, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+    }
+  ],
+  "video_title": "#미래투자 #인공지능 #지속가능한에너지 #블록체인"
+}

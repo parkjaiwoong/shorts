@@ -1,0 +1,111 @@
+{
+  "jobId": "wS2ebGryMZJix_igcsnTc",
+  "runId": "20260120_233206",
+  "topic": "앞으로의 미래투자는 어디에 하나",
+  "stage": "awaiting_confirm",
+  "createdAt": "2026-01-20T14:32:06.047Z",
+  "updatedAt": "2026-01-20T14:36:52.542Z",
+  "confirmBeforeRender": true,
+  "mode": "auto",
+  "steps": {
+    "script": {
+      "state": "done",
+      "startedAt": "2026-01-20T14:32:07.174Z",
+      "endedAt": "2026-01-20T14:32:48.040Z",
+      "durationMs": 40866
+    },
+    "images": {
+      "state": "done",
+      "startedAt": "2026-01-20T14:32:48.058Z",
+      "endedAt": "2026-01-20T14:36:09.461Z",
+      "durationMs": 201403
+    },
+    "narration": {
+      "state": "done",
+      "startedAt": "2026-01-20T14:36:09.470Z",
+      "endedAt": "2026-01-20T14:36:25.774Z",
+      "durationMs": 16304
+    },
+    "thumbnail": {
+      "state": "done",
+      "startedAt": "2026-01-20T14:36:25.783Z",
+      "endedAt": "2026-01-20T14:36:52.012Z",
+      "durationMs": 26229
+    },
+    "render": {
+      "state": "pending"
+    }
+  },
+  "geminiScript": {
+    "hook": "미래의 투자처가 이곳에?!",
+    "full_script": "여러분, 오늘은 앞으로의 미래 투자가 어디에 집중되어야 할지 알아보려고 해요. 지금 당장 투자해야 할 분야는 무엇일까요? 첫 번째로, 인공지능입니다. AI는 우리 삶의 모든 분야에 영향을 미치고 있어요. 다음으로는 지속 가능성입니다. 환경을 생각하는 기업들이 뜨고 있죠. 그리고 마지막으로, 우주 산업입니다. 이제 인류는 우주로 눈을 돌리고 있어요. 하지만 이렇게 좋은 투자처가 있는데도 불구하고, 우리는 쉽게 간과할 수 있어요. 결론적으로, 미래 투자는 기술과 환경을 고려해야 합니다. 여러분은 어떤 분야에 투자할 건가요? 댓글로 알려주세요!",
+    "scenes": [
+      {
+        "text": "미래의 투자처가 이곳에?!",
+        "image_prompt": "A futuristic city skyline with advanced technology, showcasing various AI applications, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+      },
+      {
+        "text": "첫 번째로, 인공지능입니다. AI는 우리 삶의 모든 분야에 영향을 미치고 있어요.",
+        "image_prompt": "An AI robot interacting with humans in a modern setting, surrounded by data streams, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+      },
+      {
+        "text": "다음으로는 지속 가능성입니다. 환경을 생각하는 기업들이 뜨고 있죠.",
+        "image_prompt": "A green urban landscape with solar panels and wind turbines, people engaging in eco-friendly activities, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+      },
+      {
+        "text": "그리고 마지막으로, 우주 산업입니다. 이제 인류는 우주로 눈을 돌리고 있어요.",
+        "image_prompt": "A rocket launching into space with a backdrop of planets and stars, showcasing space exploration, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+      },
+      {
+        "text": "결론적으로, 미래 투자는 기술과 환경을 고려해야 합니다.",
+        "image_prompt": "A collage of AI, sustainability, and space exploration symbols, representing the future of investment, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+      }
+    ],
+    "video_title": "#미래투자 #AI #지속가능성 #우주산업"
+  },
+  "script": {
+    "title": "#미래투자 #AI #지속가능성 #우주산업",
+    "scenes": [
+      {
+        "narration": "미래의 투자처가 이곳에?!",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A futuristic city skyline with advanced technology, showcasing various AI applications, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "미래의 투자처가 이곳에"
+      },
+      {
+        "narration": "첫 번째로, 인공지능입니다. AI는 우리 삶의 모든 분야에 영향을 미치고 있어요.",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, An AI robot interacting with humans in a modern setting, surrounded by data streams, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Korean office worker or Seoulite, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "첫 번째로, 인공지능입니다"
+      },
+      {
+        "narration": "다음으로는 지속 가능성입니다. 환경을 생각하는 기업들이 뜨고 있죠.",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A green urban landscape with solar panels and wind turbines, people engaging in eco-friendly activities, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Korean office worker or Seoulite, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "다음으로는 지속 가능성입니다"
+      },
+      {
+        "narration": "그리고 마지막으로, 우주 산업입니다. 이제 인류는 우주로 눈을 돌리고 있어요.",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A rocket launching into space with a backdrop of planets and stars, showcasing space exploration, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "그리고 마지막으로, 우주 산업입니다"
+      },
+      {
+        "narration": "결론적으로, 미래 투자는 기술과 환경을 고려해야 합니다.",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A collage of AI, sustainability, and space exploration symbols, representing the future of investment, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "결론적으로, 미래 투자는 기술과 환경을 고려"
+      }
+    ]
+  },
+  "images": [
+    "/runs/20260120_233206/output/images/scene-1.png",
+    "/runs/20260120_233206/output/images/scene-2.png",
+    "/runs/20260120_233206/output/images/scene-3.png",
+    "/runs/20260120_233206/output/images/scene-4.png",
+    "/runs/20260120_233206/output/images/scene-5.png"
+  ],
+  "audio": [
+    "/runs/20260120_233206/output/audio/scene-1.mp3",
+    "/runs/20260120_233206/output/audio/scene-2.mp3",
+    "/runs/20260120_233206/output/audio/scene-3.mp3",
+    "/runs/20260120_233206/output/audio/scene-4.mp3",
+    "/runs/20260120_233206/output/audio/scene-5.mp3"
+  ],
+  "thumbnail": "/runs/20260120_233206/output/thumbnail.png"
+}

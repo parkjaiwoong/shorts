@@ -1,0 +1,111 @@
+{
+  "jobId": "TbmUXCoXS2HG1WUki-AAb",
+  "runId": "20260120_184046",
+  "topic": "연봉 1억 찍는 사람들의 '비밀 AI 루틴' 3가지",
+  "stage": "awaiting_confirm",
+  "createdAt": "2026-01-20T09:40:46.281Z",
+  "updatedAt": "2026-01-20T09:45:04.651Z",
+  "confirmBeforeRender": true,
+  "mode": "auto",
+  "steps": {
+    "script": {
+      "state": "done",
+      "startedAt": "2026-01-20T09:40:47.754Z",
+      "endedAt": "2026-01-20T09:41:10.849Z",
+      "durationMs": 23095
+    },
+    "images": {
+      "state": "done",
+      "startedAt": "2026-01-20T09:41:10.856Z",
+      "endedAt": "2026-01-20T09:44:12.536Z",
+      "durationMs": 181680
+    },
+    "narration": {
+      "state": "done",
+      "startedAt": "2026-01-20T09:44:12.538Z",
+      "endedAt": "2026-01-20T09:44:34.748Z",
+      "durationMs": 22210
+    },
+    "thumbnail": {
+      "state": "done",
+      "startedAt": "2026-01-20T09:44:34.750Z",
+      "endedAt": "2026-01-20T09:45:04.418Z",
+      "durationMs": 29668
+    },
+    "render": {
+      "state": "pending"
+    }
+  },
+  "geminiScript": {
+    "hook": "🚨경고! 연봉 1억 못 버는 당신, 이거 안 보면 평생 후회합니다! 😱",
+    "full_script": "🚨경고! 연봉 1억 못 버는 당신, 이거 안 보면 평생 후회합니다! 😱 솔직히 말할게. 연봉 1억 찍는 사람들? 다들 '이거' 쓰고 있어. 바로 '비밀 AI 루틴' 3가지! [자막: 연봉 1억 AI 루틴 3가지!] 첫째, AI로 잡무 컷! ✂️ 이메일 작성, 보고서 초안, 일정 관리? AI한테 맡겨버려! 반복적이고 귀찮은 일에 시간 낭비 노노! 🙅‍♀️ AI가 대신 해주니까 핵심 업무에만 집중 가능! 이거 진짜 개꿀팁! 🍯 둘째, AI 코칭으로 초고속 성장! 🚀 새로운 스킬 배워야 하는데 시간 없다고? AI 튜터, AI 학습 플래너 써봐! [자막: AI 튜터로 초고속 성장!] 내 수준에 딱 맞는 맞춤형 학습 콘텐츠를 AI가 싹 다 찾아주고, 심지어 모의 면접까지 해줘! 성장 속도 미쳤다리~ 📈 셋째, AI 인사이트로 돈 버는 전략 수립! 💰 시장 분석, 트렌드 예측, 경쟁사 분석까지! AI가 방대한 데이터 싹 다 긁어모아 핵심만 쏙쏙 뽑아줘! [자막: AI가 돈 버는 길 보여줌!] 그냥 AI가 시키는 대로만 해도 돈이 복사되는 마법! 🪄 자, 이 세 가지 루틴의 진짜 비밀이 뭔지 알아? 바로 꾸준함이야! AI는 도구일 뿐, 이걸 매일매일 내 루틴에 녹여내는 사람이 결국 연봉 1억 찍는다고! ✨ 지금 당장 시작해봐! 이 영상 저장하고, 친구한테도 공유해서 같이 부자되자! 💰💸",
+    "scenes": [
+      {
+        "text": "🚨경고! 연봉 1억 못 버는 당신, 이거 안 보면 평생 후회합니다! 😱",
+        "image_prompt": "A frustrated and stressed young adult (20s-30s) looking overwhelmed by paperwork and a computer screen, with a red warning symbol overlay. The background is a modern, slightly chaotic office. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant."
+      },
+      {
+        "text": "첫째, AI로 잡무 컷! ✂️ 이메일 작성, 보고서 초안, 일정 관리? AI한테 맡겨버려! 반복적이고 귀찮은 일에 시간 낭비 노노! 🙅‍♀️ AI가 대신 해주니까 핵심 업무에만 집중 가능! 이거 진짜 개꿀팁! 🍯",
+        "image_prompt": "A happy young professional (20s-30s) with a relaxed expression, watching a sleek, minimalist AI assistant robot efficiently handling multiple digital tasks (emails, reports, calendar) on a transparent screen. The office is clean and bright. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant."
+      },
+      {
+        "text": "둘째, AI 코칭으로 초고속 성장! 🚀 새로운 스킬 배워야 하는데 시간 없다고? AI 튜터, AI 학습 플래너 써봐! 내 수준에 딱 맞는 맞춤형 학습 콘텐츠를 AI가 싹 다 찾아주고, 심지어 모의 면접까지 해줘! 성장 속도 미쳤다리~ 📈",
+        "image_prompt": "A person (20s-30s) rapidly acquiring knowledge, symbolized by glowing data streams flowing from an advanced AI interface into their head. They are sitting in a futuristic learning pod, looking focused and enlightened. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant."
+      },
+      {
+        "text": "셋째, AI 인사이트로 돈 버는 전략 수립! 💰 시장 분석, 트렌드 예측, 경쟁사 분석까지! AI가 방대한 데이터 싹 다 긁어모아 핵심만 쏙쏙 뽑아줘! 그냥 AI가 시키는 대로만 해도 돈이 복사되는 마법! 🪄",
+        "image_prompt": "A person (30s-40s) confidently pointing at a holographic display showing complex market data, trend predictions, and financial graphs, all clearly analyzed and simplified by an AI. Money symbols are subtly integrated into the display. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant."
+      },
+      {
+        "text": "자, 이 세 가지 루틴의 진짜 비밀이 뭔지 알아? 바로 꾸준함이야! AI는 도구일 뿐, 이걸 매일매일 내 루틴에 녹여내는 사람이 결국 연봉 1억 찍는다고! ✨ 지금 당장 시작해봐! 이 영상 저장하고, 친구한테도 공유해서 같이 부자되자! 💰💸",
+        "image_prompt": "A successful, confident person (30s-40s) standing in a bright, modern penthouse office, looking out over a futuristic cityscape. They hold a tablet with an AI interface, and a subtle aura of achievement surrounds them. Money and share icons float around, encouraging action. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant."
+      }
+    ],
+    "video_title": "연봉 1억? 이젠 AI 없인 못 벌어! 😨💰 (직장인 필수 시청) #AI루틴 #연봉1억 #부자되는법 #직장인 #자기계발"
+  },
+  "script": {
+    "title": "연봉 1억? 이젠 AI 없인 못 벌어! 😨💰 (직장인 필수 시청) #AI루틴 #연봉1억 #부자되는법 #직장인 #자기계발",
+    "scenes": [
+      {
+        "narration": "🚨경고! 연봉 1억 못 버는 당신, 이거 안 보면 평생 후회합니다! 😱",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A frustrated and stressed young adult (20s-30s) looking overwhelmed by paperwork and a computer screen, with a red warning symbol overlay. The background is a modern, slightly chaotic office. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant., office interior with Namsan Tower visible through the window, computer monitor showing Hangul text, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "🚨경고"
+      },
+      {
+        "narration": "첫째, AI로 잡무 컷! ✂️ 이메일 작성, 보고서 초안, 일정 관리? AI한테 맡겨버려! 반복적이고 귀찮은 일에 시간 낭비 노노! 🙅‍♀️ AI가 대신 해주니까 핵심 업무에만 집중 가능! 이거 진짜 개꿀팁! 🍯",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A happy young professional (20s-30s) with a relaxed expression, watching a sleek, minimalist AI assistant robot efficiently handling multiple digital tasks (emails, reports, calendar) on a transparent screen. The office is clean and bright. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant., office interior with Namsan Tower visible through the window, computer monitor showing Hangul text, Detailed Clock Face with clear hands, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "첫째, AI로 잡무 컷"
+      },
+      {
+        "narration": "둘째, AI 코칭으로 초고속 성장! 🚀 새로운 스킬 배워야 하는데 시간 없다고? AI 튜터, AI 학습 플래너 써봐! 내 수준에 딱 맞는 맞춤형 학습 콘텐츠를 AI가 싹 다 찾아주고, 심지어 모의 면접까지 해줘! 성장 속도 미쳤다리~ 📈",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A person (20s-30s) rapidly acquiring knowledge, symbolized by glowing data streams flowing from an advanced AI interface into their head. They are sitting in a futuristic learning pod, looking focused and enlightened. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant., Korean office worker or Seoulite, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "둘째, AI 코칭으로 초고속 성장"
+      },
+      {
+        "narration": "셋째, AI 인사이트로 돈 버는 전략 수립! 💰 시장 분석, 트렌드 예측, 경쟁사 분석까지! AI가 방대한 데이터 싹 다 긁어모아 핵심만 쏙쏙 뽑아줘! 그냥 AI가 시키는 대로만 해도 돈이 복사되는 마법! 🪄",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A person (30s-40s) confidently pointing at a holographic display showing complex market data, trend predictions, and financial graphs, all clearly analyzed and simplified by an AI. Money symbols are subtly integrated into the display. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant., Korean office worker or Seoulite, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "셋째, AI 인사이트로 돈 버는 전략 수립"
+      },
+      {
+        "narration": "자, 이 세 가지 루틴의 진짜 비밀이 뭔지 알아? 바로 꾸준함이야! AI는 도구일 뿐, 이걸 매일매일 내 루틴에 녹여내는 사람이 결국 연봉 1억 찍는다고! ✨ 지금 당장 시작해봐! 이 영상 저장하고, 친구한테도 공유해서 같이 부자되자! 💰💸",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A successful, confident person (30s-40s) standing in a bright, modern penthouse office, looking out over a futuristic cityscape. They hold a tablet with an AI interface, and a subtle aura of achievement surrounds them. Money and share icons float around, encouraging action. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant., Korean office worker or Seoulite, office interior with Namsan Tower visible through the window, computer monitor showing Hangul text, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "자, 이 세 가지 루틴의 진짜 비밀이 뭔지 "
+      }
+    ]
+  },
+  "images": [
+    "/runs/20260120_184046/output/images/scene-1.png",
+    "/runs/20260120_184046/output/images/scene-2.png",
+    "/runs/20260120_184046/output/images/scene-3.png",
+    "/runs/20260120_184046/output/images/scene-4.png",
+    "/runs/20260120_184046/output/images/scene-5.png"
+  ],
+  "audio": [
+    "/runs/20260120_184046/output/audio/scene-1.mp3",
+    "/runs/20260120_184046/output/audio/scene-2.mp3",
+    "/runs/20260120_184046/output/audio/scene-3.mp3",
+    "/runs/20260120_184046/output/audio/scene-4.mp3",
+    "/runs/20260120_184046/output/audio/scene-5.mp3"
+  ],
+  "thumbnail": "/runs/20260120_184046/output/thumbnail.png"
+}

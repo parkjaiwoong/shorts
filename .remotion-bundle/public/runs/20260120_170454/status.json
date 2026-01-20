@@ -1,0 +1,25 @@
+{
+  "jobId": "Ve3dkyb4Sr7VmPaCaohTe",
+  "runId": "20260120_170454",
+  "topic": "2026년 현재, 직장인이 무조건 써야 하는 AI 에이전트 TOP 3",
+  "stage": "error",
+  "createdAt": "2026-01-20T08:04:54.572Z",
+  "updatedAt": "2026-01-20T08:05:13.715Z",
+  "confirmBeforeRender": true,
+  "steps": {
+    "script": {
+      "state": "running",
+      "startedAt": "2026-01-20T08:04:55.988Z"
+    },
+    "images": {
+      "state": "pending"
+    },
+    "narration": {
+      "state": "pending"
+    },
+    "render": {
+      "state": "pending"
+    }
+  },
+  "error": "Unexpected token '`', \"```json\n{\n\"... is not valid JSON"
+}

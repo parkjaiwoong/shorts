@@ -1,0 +1,111 @@
+{
+  "jobId": "QmGtvhn12GoKLCsWE2IyD",
+  "runId": "20260120_232956",
+  "topic": "앞으로의 미래투자는 어디에 하나",
+  "stage": "awaiting_confirm",
+  "createdAt": "2026-01-20T14:29:56.702Z",
+  "updatedAt": "2026-01-20T14:34:45.681Z",
+  "confirmBeforeRender": true,
+  "mode": "auto",
+  "steps": {
+    "script": {
+      "state": "done",
+      "startedAt": "2026-01-20T14:29:58.700Z",
+      "endedAt": "2026-01-20T14:30:26.454Z",
+      "durationMs": 27754
+    },
+    "images": {
+      "state": "done",
+      "startedAt": "2026-01-20T14:30:26.538Z",
+      "endedAt": "2026-01-20T14:33:55.890Z",
+      "durationMs": 209352
+    },
+    "narration": {
+      "state": "done",
+      "startedAt": "2026-01-20T14:33:55.982Z",
+      "endedAt": "2026-01-20T14:34:18.269Z",
+      "durationMs": 22287
+    },
+    "thumbnail": {
+      "state": "done",
+      "startedAt": "2026-01-20T14:34:18.275Z",
+      "endedAt": "2026-01-20T14:34:45.128Z",
+      "durationMs": 26853
+    },
+    "render": {
+      "state": "pending"
+    }
+  },
+  "geminiScript": {
+    "hook": "미래투자, 당신의 돈을 어디에 두어야 할까요?",
+    "full_script": "안녕하세요! 오늘은 미래투자에 대해 이야기해볼게요. 많은 사람들이 주식, 부동산, 암호화폐 등에 투자하고 있는데, 과연 어떤 분야가 더 유망할까요? 저와 함께 미래를 예측해보죠.",
+    "scenes": [
+      {
+        "text": "첫 번째로, 인공지능과 로봇 기술이 급속도로 발전하고 있습니다. 이 분야에 투자하는 것은 매우 현명한 선택일 수 있어요.",
+        "image_prompt": "A futuristic city with robots and AI integration, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+      },
+      {
+        "text": "두 번째로, 지속 가능한 에너지. 태양광과 풍력 발전이 미래의 핵심이 될 것입니다. 이 분야의 기업에 주목해보세요.",
+        "image_prompt": "Solar panels and wind turbines in a green landscape, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+      },
+      {
+        "text": "세 번째로, 바이오 기술. 사람들의 삶의 질을 높이는 혁신적인 치료법이 계속 개발되고 있습니다. 이 분야도 놓치지 마세요.",
+        "image_prompt": "Advanced biotechnology lab with scientists working, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+      },
+      {
+        "text": "하지만, 이 모든 분야에는 위험이 따릅니다. 변동성이 큰 암호화폐 시장도 무시할 수 없죠. 신중하게 접근해야 합니다.",
+        "image_prompt": "A fluctuating cryptocurrency market graph, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+      },
+      {
+        "text": "결론적으로, 미래투자는 기술 혁신에 집중해야 합니다. 여러분의 돈이 더 안전하고 수익성 있는 곳에 투자되길 바랍니다! 구독과 좋아요 잊지 마세요!",
+        "image_prompt": "A person analyzing investment options on a digital screen, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+      }
+    ],
+    "video_title": "#미래투자 #투자전략 #인공지능 #바이오기술 #지속가능한에너지"
+  },
+  "script": {
+    "title": "#미래투자 #투자전략 #인공지능 #바이오기술 #지속가능한에너지",
+    "scenes": [
+      {
+        "narration": "첫 번째로, 인공지능과 로봇 기술이 급속도로 발전하고 있습니다. 이 분야에 투자하는 것은 매우 현명한 선택일 수 있어요.",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A futuristic city with robots and AI integration, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "첫 번째로, 인공지능과 로봇 기술이 급속도로"
+      },
+      {
+        "narration": "두 번째로, 지속 가능한 에너지. 태양광과 풍력 발전이 미래의 핵심이 될 것입니다. 이 분야의 기업에 주목해보세요.",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, Solar panels and wind turbines in a green landscape, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "두 번째로, 지속 가능한 에너지"
+      },
+      {
+        "narration": "세 번째로, 바이오 기술. 사람들의 삶의 질을 높이는 혁신적인 치료법이 계속 개발되고 있습니다. 이 분야도 놓치지 마세요.",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, Advanced biotechnology lab with scientists working, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, office interior with Namsan Tower visible through the window, computer monitor showing Hangul text, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "세 번째로, 바이오 기술"
+      },
+      {
+        "narration": "하지만, 이 모든 분야에는 위험이 따릅니다. 변동성이 큰 암호화폐 시장도 무시할 수 없죠. 신중하게 접근해야 합니다.",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A fluctuating cryptocurrency market graph, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "하지만, 이 모든 분야에는 위험이 따릅니다"
+      },
+      {
+        "narration": "결론적으로, 미래투자는 기술 혁신에 집중해야 합니다. 여러분의 돈이 더 안전하고 수익성 있는 곳에 투자되길 바랍니다! 구독과 좋아요 잊지 마세요!",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A person analyzing investment options on a digital screen, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Korean office worker or Seoulite, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "결론적으로, 미래투자는 기술 혁신에 집중해야"
+      }
+    ]
+  },
+  "images": [
+    "/runs/20260120_232956/output/images/scene-1.png",
+    "/runs/20260120_232956/output/images/scene-2.png",
+    "/runs/20260120_232956/output/images/scene-3.png",
+    "/runs/20260120_232956/output/images/scene-4.png",
+    "/runs/20260120_232956/output/images/scene-5.png"
+  ],
+  "audio": [
+    "/runs/20260120_232956/output/audio/scene-1.mp3",
+    "/runs/20260120_232956/output/audio/scene-2.mp3",
+    "/runs/20260120_232956/output/audio/scene-3.mp3",
+    "/runs/20260120_232956/output/audio/scene-4.mp3",
+    "/runs/20260120_232956/output/audio/scene-5.mp3"
+  ],
+  "thumbnail": "/runs/20260120_232956/output/thumbnail.png"
+}

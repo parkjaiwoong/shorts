@@ -1,0 +1,105 @@
+{
+  "jobId": "UKDXu2lXx4jXCV30etwrb",
+  "runId": "20260120_171145",
+  "topic": "2026년 현재, 직장인이 무조건 써야 하는 AI 에이전트 TOP 3",
+  "stage": "error",
+  "createdAt": "2026-01-20T08:11:45.133Z",
+  "updatedAt": "2026-01-20T08:16:25.590Z",
+  "confirmBeforeRender": true,
+  "steps": {
+    "script": {
+      "state": "done",
+      "startedAt": "2026-01-20T08:11:46.852Z",
+      "endedAt": "2026-01-20T08:15:50.386Z",
+      "durationMs": 243534
+    },
+    "images": {
+      "state": "done",
+      "startedAt": "2026-01-20T08:15:50.393Z",
+      "endedAt": "2026-01-20T08:15:50.411Z",
+      "durationMs": 18
+    },
+    "narration": {
+      "state": "done",
+      "startedAt": "2026-01-20T08:15:50.414Z",
+      "endedAt": "2026-01-20T08:15:50.432Z",
+      "durationMs": 18
+    },
+    "render": {
+      "state": "running",
+      "startedAt": "2026-01-20T08:15:50.533Z"
+    }
+  },
+  "geminiScript": {
+    "hook": "아직도 야근하면서 수동으로 일함? 😱 2026년 직장인 국룰 AI 에이전트 TOP 3 모르면 진짜 바보!",
+    "full_script": "아직도 야근하면서 수동으로 일함? 😱 2026년 직장인 국룰 AI 에이전트 TOP 3 모르면 진짜 바보! 🔥 시간 순삭, 업무 효율 쌉가능!\n[자막: ⏰ 시간 순삭! 업무 효율 쌉가능!]\n\n첫 번째! '워크플로우 오토봇'! 🤖 얘는 미팅 스케줄 잡고, 회의록 요약은 기본! 심지어 이메일 답장까지 알아서 써줘! ✍️ 맨날 하던 잡무에 시간 뺏기지 마! 이제 워라밸 개이득이야!\n\n두 번째! '프로젝트 가디언'! 🛡️ 복잡한 프로젝트 진행 상황? 데드라인 관리? 얘가 알아서 다 체크하고, 필요한 자료까지 척척 모아준다고! 🤯 누락? 지연? 그런 거 이제 남의 얘기! 팀원 간 커뮤니케이션도 얘가 최적화해줌!\n\n세 번째! '데이터 인사이터'! 📊 방대한 데이터 속에서 핵심만 쏙쏙 뽑아내서 보고서 뚝딱! 📈 시장 트렌드 분석부터 고객 행동 예측까지! 클릭 몇 번으로 전문가 수준의 인사이트를 얻을 수 있다고! 이거 완전 사기캐 아니냐? 😲\n[자막: 🚀 당신의 워크플로우를 혁신할 AI!]\n\n이 세 가지만 있어도 당신의 업무 효율은 최소 200% 폭풍 성장! 🚀 남들 야근할 때, 당신은 칼퇴하고 자기계발 쌉가능! 이젠 AI 에이전트가 당신의 비서이자 전략가야!\n[자막: ✨ AI 에이전트, 이제 선택 아닌 필수!]\n\n어때? 진짜 대박이지? 👍 지금 바로 댓글에서 추천 AI 에이전트 확인하고, 좋아요, 구독, 알림 설정까지! 잊지 마! 다음에도 더 꿀팁 들고 올게! 안녕! 👋",
+    "scenes": [
+      {
+        "text": "아직도 야근하면서 수동으로 일함? 😱 2026년 직장인 국룰 AI 에이전트 TOP 3 모르면 진짜 바보! 🔥 시간 순삭, 업무 효율 쌉가능!",
+        "image_prompt": "A stressed office worker slumped over a desk full of papers, suddenly a bright, futuristic AI interface appears around them, transforming the scene into one of ease and efficiency. Cinematic, High Quality, Vibrant."
+      },
+      {
+        "text": "첫 번째! '워크플로우 오토봇'! 🤖 얘는 미팅 스케줄 잡고, 회의록 요약은 기본! 심지어 이메일 답장까지 알아서 써줘! ✍️ 맨날 하던 잡무에 시간 뺏기지 마! 이제 워라밸 개이득이야!",
+        "image_prompt": "A holographic AI assistant robot seamlessly managing multiple tasks: scheduling meetings, summarizing a virtual conference, and drafting an email on a translucent screen, while a human office worker sips coffee relaxedly. Cinematic, High Quality, Vibrant."
+      },
+      {
+        "text": "두 번째! '프로젝트 가디언'! 🛡️ 복잡한 프로젝트 진행 상황? 데드라인 관리? 얘가 알아서 다 체크하고, 필요한 자료까지 척척 모아준다고! 🤯 누락? 지연? 그런 거 이제 남의 얘기! 팀원 간 커뮤니케이션도 얘가 최적화해줌!",
+        "image_prompt": "A glowing, shield-like AI interface overseeing a complex project timeline with various tasks and deadlines, showing green checkmarks for completed items and red alerts for potential delays. Digital lines connect team members, illustrating optimized communication. Cinematic, High Quality, Vibrant."
+      },
+      {
+        "text": "세 번째! '데이터 인사이터'! 📊 방대한 데이터 속에서 핵심만 쏙쏙 뽑아내서 보고서 뚝딱! 📈 시장 트렌드 분석부터 고객 행동 예측까지! 클릭 몇 번으로 전문가 수준의 인사이트를 얻을 수 있다고! 이거 완전 사기캐 아니냐? 😲",
+        "image_prompt": "A sleek AI dashboard displaying intricate data visualizations, graphs, and predictive models, transforming raw numbers into an elegant, ready-to-present business report with a single click. A professional looks on in awe. Cinematic, High Quality, Vibrant."
+      },
+      {
+        "text": "어때? 진짜 대박이지? 👍 지금 바로 댓글에서 추천 AI 에이전트 확인하고, 좋아요, 구독, 알림 설정까지! 잊지 마! 다음에도 더 꿀팁 들고 올게! 안녕! 👋",
+        "image_prompt": "A smiling, confident office worker giving a thumbs-up, standing in front of a futuristic office environment. Overlayed are glowing social media icons (like, subscribe, notification bell) encouraging interaction. Cinematic, High Quality, Vibrant."
+      }
+    ],
+    "video_title": "🤯 2026년 직장인 필수템! AI 에이전트 TOP 3 모르면 진짜 바보! #AI #직장인필수템 #업무자동화 #생산성 #칼퇴각"
+  },
+  "script": {
+    "title": "🤯 2026년 직장인 필수템! AI 에이전트 TOP 3 모르면 진짜 바보! #AI #직장인필수템 #업무자동화 #생산성 #칼퇴각",
+    "scenes": [
+      {
+        "narration": "아직도 야근하면서 수동으로 일함? 😱 2026년 직장인 국룰 AI 에이전트 TOP 3 모르면 진짜 바보! 🔥 시간 순삭, 업무 효율 쌉가능!",
+        "imagePrompt": "A stressed office worker slumped over a desk full of papers, suddenly a bright, futuristic AI interface appears around them, transforming the scene into one of ease and efficiency. Cinematic, High Quality, Vibrant.",
+        "subtitle": "아직도 야근하면서 수동으로 일함"
+      },
+      {
+        "narration": "첫 번째! '워크플로우 오토봇'! 🤖 얘는 미팅 스케줄 잡고, 회의록 요약은 기본! 심지어 이메일 답장까지 알아서 써줘! ✍️ 맨날 하던 잡무에 시간 뺏기지 마! 이제 워라밸 개이득이야!",
+        "imagePrompt": "A holographic AI assistant robot seamlessly managing multiple tasks: scheduling meetings, summarizing a virtual conference, and drafting an email on a translucent screen, while a human office worker sips coffee relaxedly. Cinematic, High Quality, Vibrant.",
+        "subtitle": "첫 번째"
+      },
+      {
+        "narration": "두 번째! '프로젝트 가디언'! 🛡️ 복잡한 프로젝트 진행 상황? 데드라인 관리? 얘가 알아서 다 체크하고, 필요한 자료까지 척척 모아준다고! 🤯 누락? 지연? 그런 거 이제 남의 얘기! 팀원 간 커뮤니케이션도 얘가 최적화해줌!",
+        "imagePrompt": "A glowing, shield-like AI interface overseeing a complex project timeline with various tasks and deadlines, showing green checkmarks for completed items and red alerts for potential delays. Digital lines connect team members, illustrating optimized communication. Cinematic, High Quality, Vibrant.",
+        "subtitle": "두 번째"
+      },
+      {
+        "narration": "세 번째! '데이터 인사이터'! 📊 방대한 데이터 속에서 핵심만 쏙쏙 뽑아내서 보고서 뚝딱! 📈 시장 트렌드 분석부터 고객 행동 예측까지! 클릭 몇 번으로 전문가 수준의 인사이트를 얻을 수 있다고! 이거 완전 사기캐 아니냐? 😲",
+        "imagePrompt": "A sleek AI dashboard displaying intricate data visualizations, graphs, and predictive models, transforming raw numbers into an elegant, ready-to-present business report with a single click. A professional looks on in awe. Cinematic, High Quality, Vibrant.",
+        "subtitle": "세 번째"
+      },
+      {
+        "narration": "어때? 진짜 대박이지? 👍 지금 바로 댓글에서 추천 AI 에이전트 확인하고, 좋아요, 구독, 알림 설정까지! 잊지 마! 다음에도 더 꿀팁 들고 올게! 안녕! 👋",
+        "imagePrompt": "A smiling, confident office worker giving a thumbs-up, standing in front of a futuristic office environment. Overlayed are glowing social media icons (like, subscribe, notification bell) encouraging interaction. Cinematic, High Quality, Vibrant.",
+        "subtitle": "어때"
+      }
+    ]
+  },
+  "images": [
+    "/runs/20260120_171145/output/images/scene-1.png",
+    "/runs/20260120_171145/output/images/scene-2.png",
+    "/runs/20260120_171145/output/images/scene-3.png",
+    "/runs/20260120_171145/output/images/scene-4.png",
+    "/runs/20260120_171145/output/images/scene-5.png"
+  ],
+  "audio": [
+    "/runs/20260120_171145/output/audio/scene-1.mp3",
+    "/runs/20260120_171145/output/audio/scene-2.mp3",
+    "/runs/20260120_171145/output/audio/scene-3.mp3",
+    "/runs/20260120_171145/output/audio/scene-4.mp3",
+    "/runs/20260120_171145/output/audio/scene-5.mp3"
+  ],
+  "error": "TypeError: The \"durationInFrames\" prop of the \"<Composition />\" component with the id \"ShortForm\" must be an integer, but got NaN."
+}

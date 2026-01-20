@@ -1,0 +1,114 @@
+{
+  "jobId": "bfZu0U8l4HAUmWWjNMn9K",
+  "runId": "20260120_182634",
+  "topic": "유료 ChatGPT vs 무료 Gemini, 제가 대신 돈 날려봤습니다",
+  "stage": "error",
+  "createdAt": "2026-01-20T09:26:34.809Z",
+  "updatedAt": "2026-01-20T09:32:29.468Z",
+  "confirmBeforeRender": true,
+  "mode": "step",
+  "steps": {
+    "script": {
+      "state": "done",
+      "startedAt": "2026-01-20T09:26:35.866Z",
+      "endedAt": "2026-01-20T09:32:22.601Z",
+      "durationMs": 346735
+    },
+    "images": {
+      "state": "done",
+      "startedAt": "2026-01-20T09:27:30.082Z",
+      "endedAt": "2026-01-20T09:29:57.737Z",
+      "durationMs": 147655
+    },
+    "narration": {
+      "state": "done",
+      "startedAt": "2026-01-20T09:30:02.657Z",
+      "endedAt": "2026-01-20T09:30:29.389Z",
+      "durationMs": 26732
+    },
+    "thumbnail": {
+      "state": "done",
+      "startedAt": "2026-01-20T09:31:26.008Z",
+      "endedAt": "2026-01-20T09:31:58.483Z",
+      "durationMs": 32475
+    },
+    "render": {
+      "state": "running",
+      "startedAt": "2026-01-20T09:32:22.767Z"
+    }
+  },
+  "geminiScript": {
+    "hook": "야, 너 아직도 AI에 돈 쓰고 있냐? 🤯 내가 대신 돈 날려봤다! 개쌉손해인지 개이득인지 딱 알려줄게!",
+    "full_script": "야, 너 아직도 AI에 돈 쓰고 있냐? 🤯 내가 대신 돈 날려봤다! 개쌉손해인지 개이득인지 딱 알려줄게!\n\n다들 궁금했지? 유료 ChatGPT랑 무료 Gemini, 뭐가 더 좋은지! 내가 직접 몇 달간 써보고 돈 날려봤다니까? [자막: 유료 vs 무료, 진실은?] 진짜 레전드 결과 나왔으니까 끝까지 봐!\n\n먼저 유료 ChatGPT! 월 2만 5천원? 비싸! 근데 얘는 진짜… 🤯 복잡한 코드 짜주고, 보고서 초안 순식간에 만들고, 아이디어 뱅크 그 자체! [자막: ChatGPT: 만능 비서? 💸] 진짜 돈값 하냐고? 솔직히 지렸다. 특히 전문적인 작업엔 얘가 없으면 안 돼.\n\n그럼 무료 Gemini는 어떨까? 와, 얘는 또 왜 이렇게 똑똑해? 🤩 이미지 분석해서 내용 설명해주고, 간단한 글쓰기는 차고 넘쳐! 심지어 한국어 능력도 개쩐다? [자막: Gemini: 무료인데 이 정도?! ✨] 가성비 따지면 얘가 진짜 미쳤어. 솔직히 일상생활이나 가벼운 업무엔 Gemini도 충분해!\n\n그래서 결론은? 📌 니가 전문적인 작업, 복잡한 코딩, 심층 분석이 필요하다? 그럼 ChatGPT! 돈 아깝지 않음! 하지만! 가벼운 정보 검색, 아이디어 얻기, 간단한 글쓰기, 무엇보다 돈 아끼고 싶다? 그럼 Gemini 무조건 존버! [자막: 내 지갑은 소중하니까! 💰]\n\n궁금증 풀렸지? 🔥 이 영상이 도움됐다면 좋아요 박고, 구독 눌러서 또 다른 꿀팁 놓치지 마! 댓글로 너의 AI 사용 후기도 남겨줘!",
+    "scenes": [
+      {
+        "text": "야, 너 아직도 AI에 돈 쓰고 있냐? 🤯 내가 대신 돈 날려봤다! 개쌉손해인지 개이득인지 딱 알려줄게!",
+        "image_prompt": "A person looking shocked and a bit frustrated, holding a wallet with money flying out, surrounded by abstract glowing AI interfaces. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+      },
+      {
+        "text": "다들 궁금했지? 유료 ChatGPT랑 무료 Gemini, 뭐가 더 좋은지! 내가 직접 몇 달간 써보고 돈 날려봤다니까? [자막: 유료 vs 무료, 진실은?] 진짜 레전드 결과 나왔으니까 끝까지 봐!",
+        "image_prompt": "Two distinct glowing spheres, one labeled 'PAID AI' and the other 'FREE AI', hovering in a futuristic comparison interface, with a prominent question mark symbol. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+      },
+      {
+        "text": "먼저 유료 ChatGPT! 월 2만 5천원? 비싸! 근데 얘는 진짜… 🤯 복잡한 코드 짜주고, 보고서 초안 순식간에 만들고, 아이디어 뱅크 그 자체! [자막: ChatGPT: 만능 비서? 💸] 진짜 돈값 하냐고? 솔직히 지렸다. 특히 전문적인 작업엔 얘가 없으면 안 돼.",
+        "image_prompt": "A sophisticated robotic assistant (Pixar style) effortlessly generating complex code on multiple screens and writing a detailed report, surrounded by a luxurious, high-tech office environment. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+      },
+      {
+        "text": "그럼 무료 Gemini는 어떨까? 와, 얘는 또 왜 이렇게 똑똑해? 🤩 이미지 분석해서 내용 설명해주고, 간단한 글쓰기는 차고 넘쳐! 심지어 한국어 능력도 개쩐다? [자막: Gemini: 무료인데 이 정도?! ✨] 가성비 따지면 얘가 진짜 미쳤어. 솔직히 일상생활이나 가벼운 업무엔 Gemini도 충분해!",
+        "image_prompt": "A cheerful, accessible AI character (Pixar style) effortlessly analyzing an image and writing simple text, in a bright, user-friendly interface, surrounded by everyday objects. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+      },
+      {
+        "text": "그래서 결론은? 📌 니가 전문적인 작업, 복잡한 코딩, 심층 분석이 필요하다? 그럼 ChatGPT! 돈 아깝지 않음! 하지만! 가벼운 정보 검색, 아이디어 얻기, 간단한 글쓰기, 무엇보다 돈 아끼고 싶다? 그럼 Gemini 무조건 존버! [자막: 내 지갑은 소중하니까! 💰] 궁금증 풀렸지? 🔥 이 영상이 도움됐다면 좋아요 박고, 구독 눌러서 또 다른 꿀팁 놓치지 마! 댓글로 너의 AI 사용 후기도 남겨줘!",
+        "image_prompt": "A clear infographic-style comparison showing two distinct paths or choices, one leading to a premium, powerful solution (ChatGPT) and the other to a free, efficient solution (Gemini), with happy users on both sides and a prominent 'decision point'. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+      }
+    ],
+    "video_title": "🚨 충격! 유료 ChatGPT vs 무료 Gemini, 제가 대신 돈 날려봤습니다! 💸 (개쌉손해? 개이득?) #ChatGPT #Gemini #AI비교 #인공지능 #숏폼 #꿀팁"
+  },
+  "waitingStep": "render",
+  "script": {
+    "title": "🚨 충격! 유료 ChatGPT vs 무료 Gemini, 제가 대신 돈 날려봤습니다! 💸 (개쌉손해? 개이득?) #ChatGPT #Gemini #AI비교 #인공지능 #숏폼 #꿀팁",
+    "scenes": [
+      {
+        "narration": "야, 너 아직도 AI에 돈 쓰고 있냐? 🤯 내가 대신 돈 날려봤다! 개쌉손해인지 개이득인지 딱 알려줄게!",
+        "imagePrompt": "A person looking shocked and a bit frustrated, holding a wallet with money flying out, surrounded by abstract glowing AI interfaces. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "야, 너 아직도 AI에 돈 쓰고 있냐"
+      },
+      {
+        "narration": "다들 궁금했지? 유료 ChatGPT랑 무료 Gemini, 뭐가 더 좋은지! 내가 직접 몇 달간 써보고 돈 날려봤다니까? [자막: 유료 vs 무료, 진실은?] 진짜 레전드 결과 나왔으니까 끝까지 봐!",
+        "imagePrompt": "Two distinct glowing spheres, one labeled 'PAID AI' and the other 'FREE AI', hovering in a futuristic comparison interface, with a prominent question mark symbol. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "다들 궁금했지"
+      },
+      {
+        "narration": "먼저 유료 ChatGPT! 월 2만 5천원? 비싸! 근데 얘는 진짜… 🤯 복잡한 코드 짜주고, 보고서 초안 순식간에 만들고, 아이디어 뱅크 그 자체! [자막: ChatGPT: 만능 비서? 💸] 진짜 돈값 하냐고? 솔직히 지렸다. 특히 전문적인 작업엔 얘가 없으면 안 돼.",
+        "imagePrompt": "A sophisticated robotic assistant (Pixar style) effortlessly generating complex code on multiple screens and writing a detailed report, surrounded by a luxurious, high-tech office environment. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "먼저 유료 ChatGPT"
+      },
+      {
+        "narration": "그럼 무료 Gemini는 어떨까? 와, 얘는 또 왜 이렇게 똑똑해? 🤩 이미지 분석해서 내용 설명해주고, 간단한 글쓰기는 차고 넘쳐! 심지어 한국어 능력도 개쩐다? [자막: Gemini: 무료인데 이 정도?! ✨] 가성비 따지면 얘가 진짜 미쳤어. 솔직히 일상생활이나 가벼운 업무엔 Gemini도 충분해!",
+        "imagePrompt": "A cheerful, accessible AI character (Pixar style) effortlessly analyzing an image and writing simple text, in a bright, user-friendly interface, surrounded by everyday objects. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "그럼 무료 Gemini는 어떨까"
+      },
+      {
+        "narration": "그래서 결론은? 📌 니가 전문적인 작업, 복잡한 코딩, 심층 분석이 필요하다? 그럼 ChatGPT! 돈 아깝지 않음! 하지만! 가벼운 정보 검색, 아이디어 얻기, 간단한 글쓰기, 무엇보다 돈 아끼고 싶다? 그럼 Gemini 무조건 존버! [자막: 내 지갑은 소중하니까! 💰] 궁금증 풀렸지? 🔥 이 영상이 도움됐다면 좋아요 박고, 구독 눌러서 또 다른 꿀팁 놓치지 마! 댓글로 너의 AI 사용 후기도 남겨줘!",
+        "imagePrompt": "A clear infographic-style comparison showing two distinct paths or choices, one leading to a premium, powerful solution (ChatGPT) and the other to a free, efficient solution (Gemini), with happy users on both sides and a prominent 'decision point'. 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "그래서 결론은"
+      }
+    ]
+  },
+  "images": [
+    "/runs/20260120_182634/output/images/scene-1.png",
+    "/runs/20260120_182634/output/images/scene-2.png",
+    "/runs/20260120_182634/output/images/scene-3.png",
+    "/runs/20260120_182634/output/images/scene-4.png",
+    "/runs/20260120_182634/output/images/scene-5.png"
+  ],
+  "audio": [
+    "/runs/20260120_182634/output/audio/scene-1.mp3",
+    "/runs/20260120_182634/output/audio/scene-2.mp3",
+    "/runs/20260120_182634/output/audio/scene-3.mp3",
+    "/runs/20260120_182634/output/audio/scene-4.mp3",
+    "/runs/20260120_182634/output/audio/scene-5.mp3"
+  ],
+  "thumbnail": "/runs/20260120_182634/output/thumbnail.png",
+  "error": "Could not play audio with src /public/bgm/phonk-loop.mp3: [object MediaError]. See https://remotion.dev/docs/media-playback-error for help."
+}

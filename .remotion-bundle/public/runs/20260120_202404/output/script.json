@@ -1,0 +1,27 @@
+{
+  "hook": "K-웹툰, 이젠 세계를 정복한다!",
+  "full_script": "안녕하세요! 오늘은 K-웹툰이 어떻게 글로벌 트렌드가 되었는지 이야기해볼게요. 첫 번째로, K-웹툰의 매력적인 스토리라인이죠. 다양한 장르와 매력적인 캐릭터들이 독자들을 사로잡고 있어요. 두 번째는 독특한 그림체입니다. 한국 웹툰 작가들의 독창적인 스타일은 정말 놀라워요! 마지막으로, 웹툰 플랫폼의 성장입니다. 이제 누구나 쉽게 웹툰을 즐길 수 있는 시대가 왔어요. 하지만, 이를 통해 어떤 반전이 생길까요? K-웹툰이 글로벌 시장을 장악하면서 생기는 새로운 경쟁! 과연, 이 경쟁에서 살아남을 수 있을까요? 여러분의 생각은 어떤가요? 댓글로 남겨주세요!",
+  "scenes": [
+    {
+      "text": "K-웹툰의 스토리라인은 정말 매력적이에요. 독자들이 빠져들게 만드는 요소들이 가득하죠.",
+      "image_prompt": "A colorful webtoon panel showcasing diverse characters and gripping storyline, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+    },
+    {
+      "text": "그림체는 각 작가마다 다르지만, 그 독창성은 다들 인정할 거예요.",
+      "image_prompt": "An artist drawing a unique webtoon character with vibrant colors and creative style, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+    },
+    {
+      "text": "웹툰 플랫폼의 발전 덕분에 이제 누구나 쉽게 접근할 수 있어요.",
+      "image_prompt": "A person browsing a webtoon app on their smartphone with excitement, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+    },
+    {
+      "text": "하지만, K-웹툰의 성공으로 인해 경쟁이 치열해졌어요!",
+      "image_prompt": "A scene depicting a competitive environment with various webtoon creators striving for success, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+    },
+    {
+      "text": "여러분은 앞으로 K-웹툰이 어떻게 발전할 것 같아요? 댓글로 알려주세요!",
+      "image_prompt": "A vibrant discussion scene with fans sharing their thoughts about webtoons, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+    }
+  ],
+  "video_title": "K-웹툰의 글로벌 정복! #웹툰 #K웹툰 #트렌드"
+}

@@ -1,0 +1,27 @@
+{
+  "hook": "미래투자, 당신의 돈을 어디에 두어야 할까요?",
+  "full_script": "안녕하세요! 오늘은 미래투자에 대해 이야기해볼게요. 많은 사람들이 주식, 부동산, 암호화폐 등에 투자하고 있는데, 과연 어떤 분야가 더 유망할까요? 저와 함께 미래를 예측해보죠.",
+  "scenes": [
+    {
+      "text": "첫 번째로, 인공지능과 로봇 기술이 급속도로 발전하고 있습니다. 이 분야에 투자하는 것은 매우 현명한 선택일 수 있어요.",
+      "image_prompt": "A futuristic city with robots and AI integration, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+    },
+    {
+      "text": "두 번째로, 지속 가능한 에너지. 태양광과 풍력 발전이 미래의 핵심이 될 것입니다. 이 분야의 기업에 주목해보세요.",
+      "image_prompt": "Solar panels and wind turbines in a green landscape, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+    },
+    {
+      "text": "세 번째로, 바이오 기술. 사람들의 삶의 질을 높이는 혁신적인 치료법이 계속 개발되고 있습니다. 이 분야도 놓치지 마세요.",
+      "image_prompt": "Advanced biotechnology lab with scientists working, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+    },
+    {
+      "text": "하지만, 이 모든 분야에는 위험이 따릅니다. 변동성이 큰 암호화폐 시장도 무시할 수 없죠. 신중하게 접근해야 합니다.",
+      "image_prompt": "A fluctuating cryptocurrency market graph, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+    },
+    {
+      "text": "결론적으로, 미래투자는 기술 혁신에 집중해야 합니다. 여러분의 돈이 더 안전하고 수익성 있는 곳에 투자되길 바랍니다! 구독과 좋아요 잊지 마세요!",
+      "image_prompt": "A person analyzing investment options on a digital screen, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+    }
+  ],
+  "video_title": "#미래투자 #투자전략 #인공지능 #바이오기술 #지속가능한에너지"
+}

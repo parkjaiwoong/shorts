@@ -1,0 +1,25 @@
+{
+  "jobId": "jSjkAgsMQdrZcP_wqNAVr",
+  "runId": "20260120_170602",
+  "topic": "2026년 현재, 직장인이 무조건 써야 하는 AI 에이전트 TOP 3",
+  "stage": "error",
+  "createdAt": "2026-01-20T08:06:02.912Z",
+  "updatedAt": "2026-01-20T08:06:21.075Z",
+  "confirmBeforeRender": true,
+  "steps": {
+    "script": {
+      "state": "running",
+      "startedAt": "2026-01-20T08:06:03.965Z"
+    },
+    "images": {
+      "state": "pending"
+    },
+    "narration": {
+      "state": "pending"
+    },
+    "render": {
+      "state": "pending"
+    }
+  },
+  "error": "401 Incorrect API key provided: sk-proj-*************************************************************************************************************************************************************************************KEY=. You can find your API key at https://platform.openai.com/account/api-keys."
+}

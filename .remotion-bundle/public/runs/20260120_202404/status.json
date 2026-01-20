@@ -1,0 +1,115 @@
+{
+  "jobId": "XXBIDCssgBN6TT7o06OoI",
+  "runId": "20260120_202404",
+  "topic": "K-웹툰",
+  "stage": "done",
+  "createdAt": "2026-01-20T11:24:04.427Z",
+  "updatedAt": "2026-01-20T11:35:49.109Z",
+  "confirmBeforeRender": true,
+  "mode": "auto",
+  "steps": {
+    "script": {
+      "state": "done",
+      "startedAt": "2026-01-20T11:24:05.524Z",
+      "endedAt": "2026-01-20T11:31:18.838Z",
+      "durationMs": 433314
+    },
+    "images": {
+      "state": "done",
+      "startedAt": "2026-01-20T11:31:18.860Z",
+      "endedAt": "2026-01-20T11:31:18.892Z",
+      "durationMs": 32
+    },
+    "narration": {
+      "state": "done",
+      "startedAt": "2026-01-20T11:31:18.895Z",
+      "endedAt": "2026-01-20T11:31:18.940Z",
+      "durationMs": 45
+    },
+    "thumbnail": {
+      "state": "done",
+      "startedAt": "2026-01-20T11:31:18.943Z",
+      "endedAt": "2026-01-20T11:31:18.948Z",
+      "durationMs": 5
+    },
+    "render": {
+      "state": "done",
+      "startedAt": "2026-01-20T11:31:19.153Z",
+      "endedAt": "2026-01-20T11:35:49.109Z",
+      "durationMs": 269956
+    }
+  },
+  "geminiScript": {
+    "hook": "K-웹툰, 이젠 세계를 정복한다!",
+    "full_script": "안녕하세요! 오늘은 K-웹툰이 어떻게 글로벌 트렌드가 되었는지 이야기해볼게요. 첫 번째로, K-웹툰의 매력적인 스토리라인이죠. 다양한 장르와 매력적인 캐릭터들이 독자들을 사로잡고 있어요. 두 번째는 독특한 그림체입니다. 한국 웹툰 작가들의 독창적인 스타일은 정말 놀라워요! 마지막으로, 웹툰 플랫폼의 성장입니다. 이제 누구나 쉽게 웹툰을 즐길 수 있는 시대가 왔어요. 하지만, 이를 통해 어떤 반전이 생길까요? K-웹툰이 글로벌 시장을 장악하면서 생기는 새로운 경쟁! 과연, 이 경쟁에서 살아남을 수 있을까요? 여러분의 생각은 어떤가요? 댓글로 남겨주세요!",
+    "scenes": [
+      {
+        "text": "K-웹툰의 스토리라인은 정말 매력적이에요. 독자들이 빠져들게 만드는 요소들이 가득하죠.",
+        "image_prompt": "A colorful webtoon panel showcasing diverse characters and gripping storyline, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+      },
+      {
+        "text": "그림체는 각 작가마다 다르지만, 그 독창성은 다들 인정할 거예요.",
+        "image_prompt": "An artist drawing a unique webtoon character with vibrant colors and creative style, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+      },
+      {
+        "text": "웹툰 플랫폼의 발전 덕분에 이제 누구나 쉽게 접근할 수 있어요.",
+        "image_prompt": "A person browsing a webtoon app on their smartphone with excitement, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+      },
+      {
+        "text": "하지만, K-웹툰의 성공으로 인해 경쟁이 치열해졌어요!",
+        "image_prompt": "A scene depicting a competitive environment with various webtoon creators striving for success, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+      },
+      {
+        "text": "여러분은 앞으로 K-웹툰이 어떻게 발전할 것 같아요? 댓글로 알려주세요!",
+        "image_prompt": "A vibrant discussion scene with fans sharing their thoughts about webtoons, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant"
+      }
+    ],
+    "video_title": "K-웹툰의 글로벌 정복! #웹툰 #K웹툰 #트렌드"
+  },
+  "script": {
+    "title": "K-웹툰의 글로벌 정복! #웹툰 #K웹툰 #트렌드",
+    "scenes": [
+      {
+        "narration": "K-웹툰의 스토리라인은 정말 매력적이에요. 독자들이 빠져들게 만드는 요소들이 가득하죠.",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A colorful webtoon panel showcasing diverse characters and gripping storyline, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Korean office worker or Seoulite, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "K-웹툰의 스토리라인은 정말 매력적이에요"
+      },
+      {
+        "narration": "그림체는 각 작가마다 다르지만, 그 독창성은 다들 인정할 거예요.",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, An artist drawing a unique webtoon character with vibrant colors and creative style, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Korean office worker or Seoulite, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "그림체는 각 작가마다 다르지만, 그 독창성은"
+      },
+      {
+        "narration": "웹툰 플랫폼의 발전 덕분에 이제 누구나 쉽게 접근할 수 있어요.",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A person browsing a webtoon app on their smartphone with excitement, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Korean office worker or Seoulite, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "웹툰 플랫폼의 발전 덕분에 이제 누구나 쉽게"
+      },
+      {
+        "narration": "하지만, K-웹툰의 성공으로 인해 경쟁이 치열해졌어요!",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A scene depicting a competitive environment with various webtoon creators striving for success, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "하지만, K-웹툰의 성공으로 인해 경쟁이 치"
+      },
+      {
+        "narration": "여러분은 앞으로 K-웹툰이 어떻게 발전할 것 같아요? 댓글로 알려주세요!",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A vibrant discussion scene with fans sharing their thoughts about webtoons, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "여러분은 앞으로 K-웹툰이 어떻게 발전할 것"
+      }
+    ]
+  },
+  "images": [
+    "/runs/20260120_202404/output/images/scene-1.png",
+    "/runs/20260120_202404/output/images/scene-2.png",
+    "/runs/20260120_202404/output/images/scene-3.png",
+    "/runs/20260120_202404/output/images/scene-4.png",
+    "/runs/20260120_202404/output/images/scene-5.png"
+  ],
+  "audio": [
+    "/runs/20260120_202404/output/audio/scene-1.mp3",
+    "/runs/20260120_202404/output/audio/scene-2.mp3",
+    "/runs/20260120_202404/output/audio/scene-3.mp3",
+    "/runs/20260120_202404/output/audio/scene-4.mp3",
+    "/runs/20260120_202404/output/audio/scene-5.mp3"
+  ],
+  "thumbnail": "/runs/20260120_202404/output/thumbnail.png",
+  "videoUrl": "/runs/20260120_202404/output/final.mp4"
+}

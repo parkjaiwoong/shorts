@@ -1,0 +1,113 @@
+{
+  "jobId": "zlLKNWViIr8UeB0akpGDm",
+  "runId": "20260120_231634",
+  "topic": "앞으로의 미래투자는 어디에 하나",
+  "stage": "error",
+  "createdAt": "2026-01-20T14:16:34.561Z",
+  "updatedAt": "2026-01-20T14:22:33.323Z",
+  "confirmBeforeRender": true,
+  "mode": "auto",
+  "steps": {
+    "script": {
+      "state": "done",
+      "startedAt": "2026-01-20T14:16:35.668Z",
+      "endedAt": "2026-01-20T14:22:21.714Z",
+      "durationMs": 346046
+    },
+    "images": {
+      "state": "done",
+      "startedAt": "2026-01-20T14:22:21.747Z",
+      "endedAt": "2026-01-20T14:22:21.838Z",
+      "durationMs": 91
+    },
+    "narration": {
+      "state": "done",
+      "startedAt": "2026-01-20T14:22:21.846Z",
+      "endedAt": "2026-01-20T14:22:21.915Z",
+      "durationMs": 69
+    },
+    "thumbnail": {
+      "state": "done",
+      "startedAt": "2026-01-20T14:22:21.927Z",
+      "endedAt": "2026-01-20T14:22:21.932Z",
+      "durationMs": 5
+    },
+    "render": {
+      "state": "running",
+      "startedAt": "2026-01-20T14:22:22.162Z"
+    }
+  },
+  "geminiScript": {
+    "hook": "야, 너 아직도 낡은 투자처만 봐? 😨 미래 부자들만 아는 '진짜' 돈 복사 비법 알려줄게! 💸",
+    "full_script": "야, 너 아직도 낡은 투자처만 봐? 😨 미래 부자들만 아는 '진짜' 돈 복사 비법 알려줄게! 💸\n\n부동산? 주식? 그거 다 옛날 얘기라고! 🤦‍♀️ 지금 다들 어디에 돈 쏟아붓는지 알아? 바로 '미래 기술 혁명'이야! [자막: 낡은 투자 OUT! ❌]\n\n첫째, AI! 🤖 챗GPT로 시작된 인공지능 시대, 이건 그냥 트렌드가 아냐. 산업 전반을 뒤집을 게임체인저라고! 관련 기업 주식은 물론, AI 기반 서비스 플랫폼에 주목해. [자막: AI가 돈을 만든다 💰]\n\n둘째, 바이오 헬스케어! 🧬 고령화 시대와 맞물려 생명 연장, 질병 치료 기술은 끝없이 발전할 거야. 제약, 유전자 편집, 맞춤형 의료 시장, 폭발적 성장 각이다! 🚀 셋째, 클린 에너지! ☀️ 탄소 중립은 거스를 수 없는 흐름! 태양광, 풍력, 수소 에너지, 친환경 배터리... 여기에 투자 안 하면 바보지! [자막: 친환경은 선택 아닌 필수 ✅]\n\n이 세 가지 키워드, 솔직히 말해서 아직 초기 단계야. 🤫 지금부터 공부하고 선점하는 사람만이 '진정한 부의 파이'를 차지할 수 있어! 남들 다 아는 정보는 이미 늦었다고! ⏰\n\n미래 투자 정보 더 궁금하면? 좋아요 누르고 팔로우 박아! 💖 다음 편도 놓치지 마! ➡️",
+    "scenes": [
+      {
+        "text": "야, 너 아직도 낡은 투자처만 봐? 😨 미래 부자들만 아는 '진짜' 돈 복사 비법 알려줄게! 💸",
+        "image_prompt": "A futuristic cityscape at dawn, with digital money symbols floating around. In the foreground, a sleek, minimalist hand gestures towards the viewer, holding a glowing digital coin. Cinematic, High Quality, Vibrant. 3D Render, Pixar Style, High-tech and Minimalist."
+      },
+      {
+        "text": "부동산? 주식? 그거 다 옛날 얘기라고! 🤦‍♀️ 지금 다들 어디에 돈 쏟아붓는지 알아? 바로 '미래 기술 혁명'이야!",
+        "image_prompt": "A stylized, futuristic digital display showing old-fashioned bar graphs for 'real estate' and 'stocks' slowly declining, while a vibrant, complex network of glowing technological nodes for 'future tech' rapidly expands in the background. Cinematic, High Quality, Vibrant. 3D Render, Pixar Style, High-tech and Minimalist."
+      },
+      {
+        "text": "첫째, AI! 🤖 챗GPT로 시작된 인공지능 시대, 이건 그냥 트렌드가 아냐. 산업 전반을 뒤집을 게임체인저라고! 관련 기업 주식은 물론, AI 기반 서비스 플랫폼에 주목해.",
+        "image_prompt": "A split-screen or triptych showing three distinct futuristic concepts: a friendly, glowing AI robot hand interacting with a human, a complex DNA helix structure with glowing particles, and a clean energy landscape with sleek solar panels and wind turbines under a bright sky. Cinematic, High Quality, Vibrant. 3D Render, Pixar Style, High-tech and Minimalist."
+      },
+      {
+        "text": "둘째, 바이오 헬스케어! 🧬 고령화 시대와 맞물려 생명 연장, 질병 치료 기술은 끝없이 발전할 거야. 제약, 유전자 편집, 맞춤형 의료 시장, 폭발적 성장 각이다! 🚀 셋째, 클린 에너지! ☀️ 탄소 중립은 거스를 수 없는 흐름! 태양광, 풍력, 수소 에너지, 친환경 배터리... 여기에 투자 안 하면 바보지!",
+        "image_prompt": "A dynamic visual representation of exponential growth. A futuristic graph line sharply ascends into the sky, surrounded by glowing data points and abstract representations of biotech symbols and energy icons. Cinematic, High Quality, Vibrant. 3D Render, Pixar Style, High-tech and Minimalist."
+      },
+      {
+        "text": "이 세 가지 키워드, 솔직히 말해서 아직 초기 단계야. 🤫 지금부터 공부하고 선점하는 사람만이 '진정한 부의 파이'를 차지할 수 있어! 남들 다 아는 정보는 이미 늦었다고! ⏰ 미래 투자 정보 더 궁금하면? 좋아요 누르고 팔로우 박아! 💖 다음 편도 놓치지 마! ➡️",
+        "image_prompt": "A mysterious, glowing keyhole revealing a glimpse of a vast, prosperous futuristic landscape. A minimalist hand reaches towards the keyhole, hinting at unlocking secret knowledge. Digital 'like' and 'follow' icons subtly float nearby. Cinematic, High Quality, Vibrant. 3D Render, Pixar Style, High-tech and Minimalist."
+      }
+    ],
+    "video_title": "미래 투자, 여기 모르면 벼락거지 확정! 😱 (AI, 바이오, 클린 에너지) #미래투자 #돈버는법 #알고리즘추천 #재테크 #신기술"
+  },
+  "script": {
+    "title": "미래 투자, 여기 모르면 벼락거지 확정! 😱 (AI, 바이오, 클린 에너지) #미래투자 #돈버는법 #알고리즘추천 #재테크 #신기술",
+    "scenes": [
+      {
+        "narration": "야, 너 아직도 낡은 투자처만 봐? 😨 미래 부자들만 아는 '진짜' 돈 복사 비법 알려줄게! 💸",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A futuristic cityscape at dawn, with digital money symbols floating around. In the foreground, a sleek, minimalist hand gestures towards the viewer, holding a glowing digital coin. Cinematic, High Quality, Vibrant. 3D Render, Pixar Style, High-tech and Minimalist., 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "야, 너 아직도 낡은 투자처만 봐"
+      },
+      {
+        "narration": "부동산? 주식? 그거 다 옛날 얘기라고! 🤦‍♀️ 지금 다들 어디에 돈 쏟아붓는지 알아? 바로 '미래 기술 혁명'이야!",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A stylized, futuristic digital display showing old-fashioned bar graphs for 'real estate' and 'stocks' slowly declining, while a vibrant, complex network of glowing technological nodes for 'future tech' rapidly expands in the background. Cinematic, High Quality, Vibrant. 3D Render, Pixar Style, High-tech and Minimalist., office interior with Namsan Tower visible through the window, computer monitor showing Hangul text, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "부동산"
+      },
+      {
+        "narration": "첫째, AI! 🤖 챗GPT로 시작된 인공지능 시대, 이건 그냥 트렌드가 아냐. 산업 전반을 뒤집을 게임체인저라고! 관련 기업 주식은 물론, AI 기반 서비스 플랫폼에 주목해.",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A split-screen or triptych showing three distinct futuristic concepts: a friendly, glowing AI robot hand interacting with a human, a complex DNA helix structure with glowing particles, and a clean energy landscape with sleek solar panels and wind turbines under a bright sky. Cinematic, High Quality, Vibrant. 3D Render, Pixar Style, High-tech and Minimalist., Korean office worker or Seoulite, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "첫째, AI"
+      },
+      {
+        "narration": "둘째, 바이오 헬스케어! 🧬 고령화 시대와 맞물려 생명 연장, 질병 치료 기술은 끝없이 발전할 거야. 제약, 유전자 편집, 맞춤형 의료 시장, 폭발적 성장 각이다! 🚀 셋째, 클린 에너지! ☀️ 탄소 중립은 거스를 수 없는 흐름! 태양광, 풍력, 수소 에너지, 친환경 배터리... 여기에 투자 안 하면 바보지!",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A dynamic visual representation of exponential growth. A futuristic graph line sharply ascends into the sky, surrounded by glowing data points and abstract representations of biotech symbols and energy icons. Cinematic, High Quality, Vibrant. 3D Render, Pixar Style, High-tech and Minimalist., 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "둘째, 바이오 헬스케어"
+      },
+      {
+        "narration": "이 세 가지 키워드, 솔직히 말해서 아직 초기 단계야. 🤫 지금부터 공부하고 선점하는 사람만이 '진정한 부의 파이'를 차지할 수 있어! 남들 다 아는 정보는 이미 늦었다고! ⏰ 미래 투자 정보 더 궁금하면? 좋아요 누르고 팔로우 박아! 💖 다음 편도 놓치지 마! ➡️",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A mysterious, glowing keyhole revealing a glimpse of a vast, prosperous futuristic landscape. A minimalist hand reaches towards the keyhole, hinting at unlocking secret knowledge. Digital 'like' and 'follow' icons subtly float nearby. Cinematic, High Quality, Vibrant. 3D Render, Pixar Style, High-tech and Minimalist., 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "이 세 가지 키워드, 솔직히 말해서 아직 초"
+      }
+    ]
+  },
+  "images": [
+    "/runs/20260120_231634/output/images/scene-1.png",
+    "/runs/20260120_231634/output/images/scene-2.png",
+    "/runs/20260120_231634/output/images/scene-3.png",
+    "/runs/20260120_231634/output/images/scene-4.png",
+    "/runs/20260120_231634/output/images/scene-5.png"
+  ],
+  "audio": [
+    "/runs/20260120_231634/output/audio/scene-1.mp3",
+    "/runs/20260120_231634/output/audio/scene-2.mp3",
+    "/runs/20260120_231634/output/audio/scene-3.mp3",
+    "/runs/20260120_231634/output/audio/scene-4.mp3",
+    "/runs/20260120_231634/output/audio/scene-5.mp3"
+  ],
+  "thumbnail": "/runs/20260120_231634/output/thumbnail.png",
+  "error": "Error while downloading http://localhost:3001/public/runs/20260120_231634/output/audio/scene-1.mp3: Error: Received a status code of 404 while downloading file http://localhost:3001/public/runs/20260120_231634/output/audio/scene-1.mp3.\nThe response body was:\n---\n{\"statusCode\":404,\"message\":\"The requested path (D:\\\\ai\\\\SHOT_LO_PRO\\\\.remotion-bundle\\\\public\\\\runs\\\\20260120_231634\\\\output\\\\audio\\\\scene-1.mp3) could not be found\"}\n---\n    at readFile (D:\\ai\\SHOT_LO_PRO\\node_modules\\@remotion\\renderer\\dist\\assets\\read-file.js:59:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+}

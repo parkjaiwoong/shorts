@@ -1,0 +1,113 @@
+{
+  "jobId": "SqXnYorebegM9UufJhixQ",
+  "runId": "20260120_192315",
+  "topic": "미래투자는 어디일까",
+  "stage": "error",
+  "createdAt": "2026-01-20T10:23:15.309Z",
+  "updatedAt": "2026-01-20T10:27:08.625Z",
+  "confirmBeforeRender": false,
+  "mode": "auto",
+  "steps": {
+    "script": {
+      "state": "done",
+      "startedAt": "2026-01-20T10:23:16.826Z",
+      "endedAt": "2026-01-20T10:23:34.115Z",
+      "durationMs": 17289
+    },
+    "images": {
+      "state": "done",
+      "startedAt": "2026-01-20T10:23:34.120Z",
+      "endedAt": "2026-01-20T10:26:22.826Z",
+      "durationMs": 168706
+    },
+    "narration": {
+      "state": "done",
+      "startedAt": "2026-01-20T10:26:22.829Z",
+      "endedAt": "2026-01-20T10:26:37.550Z",
+      "durationMs": 14721
+    },
+    "thumbnail": {
+      "state": "done",
+      "startedAt": "2026-01-20T10:26:37.552Z",
+      "endedAt": "2026-01-20T10:27:03.545Z",
+      "durationMs": 25993
+    },
+    "render": {
+      "state": "running",
+      "startedAt": "2026-01-20T10:27:03.677Z"
+    }
+  },
+  "geminiScript": {
+    "hook": "미래 투자처, 당신이 몰랐던 비밀이 여기 있다!",
+    "full_script": "안녕하세요! 오늘은 미래 투자처에 대해 이야기해볼게요. 여러분은 어떤 곳에 투자하고 싶나요? 지금부터 소개할 투자처들은 단순한 아이디어가 아니라 실제로 성장 가능성이 높은 곳이에요. 첫 번째, 인공지능입니다. AI는 이미 우리 생활에 깊숙이 들어와 있고, 앞으로도 계속해서 진화할 거예요. 두 번째는 우주 산업입니다. 우주 여행이 이제 현실이 되고 있죠. 세 번째는 지속 가능한 에너지입니다. 기후 변화가 심각해지면서 이 분야의 투자도 급증하고 있어요. 그런데 여기서 반전이 있습니다! 이 모든 분야가 결국 연결되어 있다는 사실! AI가 에너지 효율을 높이고, 우주 탐사가 지속 가능한 에너지 개발에 기여할 수 있어요. 그러니 여러분, 지금 바로 이 새로운 투자처에 주목하세요! 더 많은 정보를 원하신다면 구독과 좋아요 부탁드립니다!",
+    "scenes": [
+      {
+        "text": "여러분은 어떤 곳에 투자하고 싶나요?",
+        "image_prompt": "A person contemplating investment options, Cinematic, High Quality, Vibrant, 3D Render, Pixar Style, High-tech and Minimalist"
+      },
+      {
+        "text": "첫 번째, 인공지능입니다.",
+        "image_prompt": "A futuristic AI robot interacting with humans, Cinematic, High Quality, Vibrant, 3D Render, Pixar Style, High-tech and Minimalist"
+      },
+      {
+        "text": "두 번째는 우주 산업입니다.",
+        "image_prompt": "A spacecraft launching into space, Cinematic, High Quality, Vibrant, 3D Render, Pixar Style, High-tech and Minimalist"
+      },
+      {
+        "text": "세 번째는 지속 가능한 에너지입니다.",
+        "image_prompt": "Solar panels and wind turbines in a green landscape, Cinematic, High Quality, Vibrant, 3D Render, Pixar Style, High-tech and Minimalist"
+      },
+      {
+        "text": "이 모든 분야가 결국 연결되어 있다는 사실!",
+        "image_prompt": "A visual representation of interconnected technologies, Cinematic, High Quality, Vibrant, 3D Render, Pixar Style, High-tech and Minimalist"
+      }
+    ],
+    "video_title": "#미래투자 #AI #우주산업 #지속가능한에너지"
+  },
+  "script": {
+    "title": "#미래투자 #AI #우주산업 #지속가능한에너지",
+    "scenes": [
+      {
+        "narration": "여러분은 어떤 곳에 투자하고 싶나요?",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A person contemplating investment options, Cinematic, High Quality, Vibrant, 3D Render, Pixar Style, High-tech and Minimalist, Korean office worker or Seoulite, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "여러분은 어떤 곳에 투자하고 싶나요"
+      },
+      {
+        "narration": "첫 번째, 인공지능입니다.",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A futuristic AI robot interacting with humans, Cinematic, High Quality, Vibrant, 3D Render, Pixar Style, High-tech and Minimalist, Korean office worker or Seoulite, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "첫 번째, 인공지능입니다"
+      },
+      {
+        "narration": "두 번째는 우주 산업입니다.",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A spacecraft launching into space, Cinematic, High Quality, Vibrant, 3D Render, Pixar Style, High-tech and Minimalist, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "두 번째는 우주 산업입니다"
+      },
+      {
+        "narration": "세 번째는 지속 가능한 에너지입니다.",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, Solar panels and wind turbines in a green landscape, Cinematic, High Quality, Vibrant, 3D Render, Pixar Style, High-tech and Minimalist, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "세 번째는 지속 가능한 에너지입니다"
+      },
+      {
+        "narration": "이 모든 분야가 결국 연결되어 있다는 사실!",
+        "imagePrompt": "Modern Korean webtoon art style, vibrant and warm colors, set in Seoul South Korea, East Asian characters with trendy Korean fashion, highly detailed, urban Korean background with Hangul signage visible, K-drama cinematography, 8k resolution, Korean webtoon artist and trendy K-drama cinematographer vibe, A visual representation of interconnected technologies, Cinematic, High Quality, Vibrant, 3D Render, Pixar Style, High-tech and Minimalist, 3D Render, Pixar Style, High-tech and Minimalist, Cinematic, High Quality, Vibrant, Cyberpunk, Cinematic Lighting, 8k Resolution, Unreal Engine 5 Render",
+        "subtitle": "이 모든 분야가 결국 연결되어 있다는 사실"
+      }
+    ]
+  },
+  "images": [
+    "/runs/20260120_192315/output/images/scene-1.png",
+    "/runs/20260120_192315/output/images/scene-2.png",
+    "/runs/20260120_192315/output/images/scene-3.png",
+    "/runs/20260120_192315/output/images/scene-4.png",
+    "/runs/20260120_192315/output/images/scene-5.png"
+  ],
+  "audio": [
+    "/runs/20260120_192315/output/audio/scene-1.mp3",
+    "/runs/20260120_192315/output/audio/scene-2.mp3",
+    "/runs/20260120_192315/output/audio/scene-3.mp3",
+    "/runs/20260120_192315/output/audio/scene-4.mp3",
+    "/runs/20260120_192315/output/audio/scene-5.mp3"
+  ],
+  "thumbnail": "/runs/20260120_192315/output/thumbnail.png",
+  "error": "Error while downloading file:///D:/ai/SHOT_LO_PRO/public/runs/20260120_192315/output/audio/scene-1.mp3: Error: Can only download URLs starting with http:// or https://, got \"file:///D:/ai/SHOT_LO_PRO/public/runs/20260120_192315/output/audio/scene-1.mp3\"\n    at getClient (D:\\ai\\SHOT_LO_PRO\\node_modules\\@remotion\\renderer\\dist\\assets\\read-file.js:18:11)\n    at D:\\ai\\SHOT_LO_PRO\\node_modules\\@remotion\\renderer\\dist\\assets\\read-file.js:22:24\n    at new Promise (<anonymous>)\n    at readFileWithoutRedirect (D:\\ai\\SHOT_LO_PRO\\node_modules\\@remotion\\renderer\\dist\\assets\\read-file.js:21:12)\n    at readFile (D:\\ai\\SHOT_LO_PRO\\node_modules\\@remotion\\renderer\\dist\\assets\\read-file.js:44:41)\n    at D:\\ai\\SHOT_LO_PRO\\node_modules\\@remotion\\renderer\\dist\\assets\\download-file.js:50:34\n    at new Promise (<anonymous>)\n    at downloadFileWithoutRetries (D:\\ai\\SHOT_LO_PRO\\node_modules\\@remotion\\renderer\\dist\\assets\\download-file.js:11:12)\n    at downloadFile (D:\\ai\\SHOT_LO_PRO\\node_modules\\@remotion\\renderer\\dist\\assets\\download-file.js:121:27)\n    at downloadAsset (D:\\ai\\SHOT_LO_PRO\\node_modules\\@remotion\\renderer\\dist\\assets\\download-and-map-assets-to-file.js:178:59)\n    at downloadAndMapAssetsToFileUrl (D:\\ai\\SHOT_LO_PRO\\node_modules\\@remotion\\renderer\\dist\\assets\\download-and-map-assets-to-file.js:263:52)\n    at renderFrameWithOptionToReject (D:\\ai\\SHOT_LO_PRO\\node_modules\\@remotion\\renderer\\dist\\render-frame-with-option-to-reject.js:124:77)"
+}
