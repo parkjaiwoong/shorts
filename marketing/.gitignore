@@ -1,0 +1,12 @@
+node_modules
+.next
+.DS_Store
+.env
+.env.local
+.env.*.local
+public/renders
+public/runs
+venv/            # 파이썬 가상환경
+__pycache__/     # 파이썬 캐시 파일
+*.mp4            # 테스트로 다운로드한 영상 파일들
+*.log            # 로그 파일

@@ -1,0 +1,8 @@
+[
+    {
+        "title": "무선 진공 청소기",
+        "url": "https://world.taobao.com/item/...",
+        "affiliate_link": "https://s.click.aliexpress.com/...",
+        "status": "pending"
+    }
+]

@@ -1,0 +1,36 @@
+틱톡 방화벽=> main.py 실행전 
+
+pip install -U yt-dlp[default]
+
+python main.py -- 다운로드 테스트
+
+애플리케이션 요약 정보
+
+이름
+marketing
+설명
+재휴마케팅 솔루션
+리전
+ap-southeast-2
+애플리케이션 태그 키
+awsApplication
+애플리케이션 태그 값
+arn:aws:resource-groups:ap-southeast-2:958850199097:group/marketing/07to3pgqj8lizuzxnuhq45zuk3
+
+PEXELS_API_KEY=uciACXOIvbwFqDzHSokxxeb2MRnYuO8KKHA4Y0PsaRarvBqUL1Fk1nF6
+시간당 요청: 최대 200회 
+월간 요청: 최대 20,000회
+https://www.pexels.com/api/key/
+
+
+DB_HOST=database-marketing.cta6w4oyog64.ap-southeast-2.rds.amazonaws.com
+DB_USER=postgres
+DB_PASSWORD=!NBerONE14
+DB_NAME=postgres
+DB_PORT=5432
+
+
+숏츠 유튜브 OAuth 인증
+OAuth 클라이언트
+클라이언트 ID=1065727914432-qqpb99i3pvv4seuulhm6vpeaf98qu0kk.apps.googleusercontent.com
+클라이언트 보안 비밀번호=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

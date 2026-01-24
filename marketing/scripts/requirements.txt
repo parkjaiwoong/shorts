@@ -1,0 +1,11 @@
+yt-dlp
+moviepy
+playwright
+playwright-stealth
+fastapi
+uvicorn
+aiohttp
+pydantic
+sqlalchemy
+psycopg2-binary
+python-dotenv
