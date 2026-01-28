@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import os
+import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -9,6 +11,10 @@ from sqlalchemy import func, select
 from db_manager import DatabaseManager
 from models import Channel, PipelineStatus, UploadLog, UploadStatus, VideoAsset
 from upload_manager import _get_youtube_service, _upload_to_youtube
+
+
+BASE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "python")
+CLIENT_SECRET_PATH = os.path.join(BASE_DIR, "client_secret.json")
 
 
 def _get_recent_success_count(session) -> int:
@@ -23,15 +29,14 @@ def _get_recent_success_count(session) -> int:
 
 
 def run_once() -> None:
+    os.environ.setdefault("YOUTUBE_CLIENT_SECRETS", CLIENT_SECRET_PATH)
     manager = DatabaseManager()
     service = _get_youtube_service()
-    print("[UPLOAD][YOUTUBE] start")
 
     with manager._session() as session:
         recent_success = _get_recent_success_count(session)
         if recent_success >= 1:
-            print("SKIP: daily limit reached (1)")
-            return
+            raise RuntimeError("daily limit reached (1)")
 
         stmt = (
             select(VideoAsset)
@@ -41,26 +46,20 @@ def run_once() -> None:
         )
         video = session.scalars(stmt).first()
         if not video:
-            print("NO PROCESSED VIDEO")
-            return
+            raise RuntimeError("no processed video")
 
         if not video.processed_path:
-            print("MISSING processed_path")
-            return
+            raise RuntimeError("missing processed_path")
 
         file_path = Path(video.processed_path)
         if not file_path.exists():
-            print("MISSING processed file")
-            return
-        print(f"[UPLOAD][YOUTUBE] target_found file={file_path}")
+            raise RuntimeError("missing processed file")
 
         channel = video.channel
         if channel and channel.platform.upper() != "YOUTUBE":
-            print("SKIP: non-youtube channel")
-            return
+            raise RuntimeError("non-youtube channel")
 
         try:
-            print("[UPLOAD][YOUTUBE] api_call_start")
             title = video.product.title if video.product else "Untitled"
             post_url = _upload_to_youtube(service, file_path, title=title)
             video.status = PipelineStatus.UPLOADED
@@ -75,12 +74,19 @@ def run_once() -> None:
             )
             session.add(log)
             session.commit()
-            print(f"[UPLOAD][YOUTUBE] success video_id={video.id}")
         except HttpError as exc:
-            print(f"[UPLOAD][YOUTUBE] fail error={exc}")
+            raise exc
         except Exception as exc:
-            print(f"[UPLOAD][YOUTUBE] fail error={exc}")
+            raise exc
 
 
 if __name__ == "__main__":
-    run_once()
+    try:
+        run_once()
+        print("UPLOAD_RESULT=SUCCESS")
+        sys.exit(0)
+    except Exception as exc:
+        print("UPLOAD_RESULT=FAILED")
+        print(f"ERROR_TYPE={exc.__class__.__name__}")
+        print(f"ERROR_MESSAGE={str(exc)}")
+        sys.exit(1)

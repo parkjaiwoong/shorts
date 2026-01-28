@@ -14,5 +14,5 @@ export async function uploadToYouTube(_video: UploadVideo): Promise<UploadResult
   console.log("[UPLOAD][YOUTUBE] uploading...");
   await delay(2000);
   console.log("[UPLOAD][YOUTUBE] done");
-  return { success: true };
+  return { success: true  };
 }

@@ -4,9 +4,46 @@ node_modules
 .env
 .env.local
 .env.*.local
+.env.*.secret
+.env.*.keys
+*.env
+*.env.*
+secrets/
+secret/
+.secrets
+.secrets.*
+secrets.*
 public/renders
 public/runs
+public/automation_logs
+public/upload_logs
+.remotion-bundle
+storage
+raw_videos
+ready_to_upload
+downloads
 venv/            # 파이썬 가상환경
 __pycache__/     # 파이썬 캐시 파일
 *.mp4            # 테스트로 다운로드한 영상 파일들
+*.mp3            # 테스트용 오디오 파일
 *.log            # 로그 파일
+*.pickle         # OAuth 토큰
+*.key
+*.pem
+*.p12
+*.pfx
+*.cer
+*.crt
+*.der
+*.jks
+*.keystore
+auth.json
+cookies.txt
+youtube_cookies.txt
+credentials.json
+credentials*.json
+client_secret.json
+client_secret*.json
+token.json
+token*.json
+token*.pickle

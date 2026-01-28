@@ -18,10 +18,12 @@ from models import Channel, PipelineStatus, UploadLog, UploadStatus, VideoAsset
 
 
 SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
+BASE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "python")
+CLIENT_SECRET_PATH = os.path.join(BASE_DIR, "client_secret.json")
 
 
 def _get_youtube_service() -> object:
-    client_secrets = os.getenv("YOUTUBE_CLIENT_SECRETS", "client_secrets.json")
+    client_secrets = os.getenv("YOUTUBE_CLIENT_SECRETS", CLIENT_SECRET_PATH)
     token_path = os.getenv("YOUTUBE_TOKEN_PATH", "token.json")
 
     creds = None
