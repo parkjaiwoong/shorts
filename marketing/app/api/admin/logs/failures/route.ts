@@ -73,8 +73,9 @@ export const PATCH = async (request: Request) => {
     return NextResponse.json({ ok: false, error: "id and status required" }, { status: 400 });
   }
   const logs = await readLogs();
+  const status = payload.status as "ACTIVE" | "IGNORED";
   const next = logs.map((item) =>
-    item.id === payload.id ? { ...item, status: payload.status } : item
+    item.id === payload.id ? { ...item, status } : item
   );
   await writeLogs(next);
   return NextResponse.json({ ok: true });

@@ -68,8 +68,8 @@ const runGenerator = (
     child.stderr.on("data", (data) => {
       stderr += data.toString();
     });
-    child.on("error", (error) => {
-      reject(new Error(`spawn failed: ${command} (${error.code || "unknown"})`));
+    child.on("error", (error: NodeJS.ErrnoException) => {
+      reject(new Error(`spawn failed: ${command} (${error.code ?? "unknown"})`));
     });
     child.on("close", (code) => {
       if (code === 0) {
@@ -91,8 +91,8 @@ const runPython = (args: string[]) =>
     child.stderr.on("data", (data) => {
       stderr += data.toString();
     });
-    child.on("error", (error) => {
-      reject(new Error(`spawn failed: python (${error.code || "unknown"})`));
+    child.on("error", (error: NodeJS.ErrnoException) => {
+      reject(new Error(`spawn failed: python (${error.code ?? "unknown"})`));
     });
     child.on("close", (code) => {
       if (code === 0) {
@@ -114,8 +114,8 @@ const runProbe = (args: string[]) =>
     child.stderr.on("data", (data) => {
       stderr += data.toString();
     });
-    child.on("error", (error) => {
-      reject(new Error(`spawn failed: ffprobe (${error.code || "unknown"})`));
+    child.on("error", (error: NodeJS.ErrnoException) => {
+      reject(new Error(`spawn failed: ffprobe (${error.code ?? "unknown"})`));
     });
     child.on("close", (code) => {
       if (code === 0) {

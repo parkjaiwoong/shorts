@@ -24,11 +24,9 @@ let bundleLocationPromise: Promise<string> | null = null;
 
 const getBundleLocation = async () => {
   if (!bundleLocationPromise) {
-    bundleLocationPromise = bundle({
-      entryPoint: path.join(process.cwd(), "remotion", "Root.tsx"),
-      outDir: path.join(process.cwd(), ".remotion-bundle"),
-      overwrite: true
-    });
+    const entryPoint = path.join(process.cwd(), "remotion", "Root.tsx");
+    const outDir = path.join(process.cwd(), ".remotion-bundle");
+    bundleLocationPromise = bundle(entryPoint, undefined, { outDir });
   }
   return bundleLocationPromise;
 };
@@ -46,8 +44,7 @@ export const renderShortForm = async ({
   await fs.mkdir(path.dirname(outputPath), { recursive: true });
 
   const compositions = await getCompositions(bundleLocation, {
-    inputProps: { scenes, title, bgmPath, commentPrompt },
-    publicDir
+    inputProps: { scenes, title, bgmPath, commentPrompt }
   });
   const composition = compositions.find((item) => item.id === "ShortForm");
 
@@ -67,9 +64,7 @@ export const renderShortForm = async ({
     serveUrl: bundleLocation,
     codec: "h264",
     inputProps: { scenes, title, bgmPath, commentPrompt },
-    publicDir,
     outputLocation: outputPath,
-    overwrite: true,
     onProgress: ({ renderedFrames, encodedFrames }) => {
       const totalFrames = composition.durationInFrames;
       const doneFrames = Math.max(renderedFrames, encodedFrames);

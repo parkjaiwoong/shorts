@@ -10,10 +10,10 @@ export const RemotionRoot = () => {
       width={1080}
       height={1920}
       durationInFrames={300}
-      calculateMetadata={({ props, fps }) => ({
+      calculateMetadata={({ props }) => ({
         durationInFrames: calculateShortFormDuration({
           props,
-          fps
+          fps: 30
         })
       })}
       defaultProps={{

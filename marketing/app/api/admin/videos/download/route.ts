@@ -147,11 +147,11 @@ export const POST = async (request: Request) => {
             });
           }
         });
-        child.on("error", (error) => {
+        child.on("error", (error: NodeJS.ErrnoException) => {
           void writeStatus(videoId, {
             status: "FAILED",
             progress: null,
-            message: `python not found (${error.code || "unknown"})`
+            message: `python not found (${error.code ?? "unknown"})`
           });
         });
         child.on("close", async (code) => {
