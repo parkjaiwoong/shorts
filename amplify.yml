@@ -3,12 +3,10 @@ frontend:
   phases:
     preBuild:
       commands:
-        - cd marketing
-        - npm ci
+        - cd marketing && npm ci
     build:
       commands:
-        - cd marketing
-        - npm run build
+        - cd marketing && npm run build
   artifacts:
     baseDirectory: marketing/.next
     files:
