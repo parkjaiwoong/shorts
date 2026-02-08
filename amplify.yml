@@ -1,17 +1,19 @@
 version: 1
-frontend:
-  phases:
-    preBuild:
-      commands:
-        - cd marketing && npm ci
-    build:
-      commands:
-        - cd marketing && npm run build
-  artifacts:
-    baseDirectory: marketing/.next
-    files:
-      - '**/*'
-  cache:
-    paths:
-      - marketing/node_modules/**/*
-      - marketing/.next/cache/**/*
+applications:
+  - appRoot: marketing
+    frontend:
+      phases:
+        preBuild:
+          commands:
+            - npm ci
+        build:
+          commands:
+            - npm run build
+      artifacts:
+        baseDirectory: .next
+        files:
+          - '**/*'
+      cache:
+        paths:
+          - node_modules/**/*
+          - .next/cache/**/*

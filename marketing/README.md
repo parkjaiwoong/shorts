@@ -17,6 +17,12 @@ npm run dev
 ```
 Open: `http://localhost:3000`
 
+## AWS Amplify (monorepo)
+Repo root is the parent of `marketing/`. The repo root contains `amplify.yml` and the `marketing/` app.
+
+- In Amplify Console: set **App root** (or **Monorepo app path**) to `marketing`, or add env var `AMPLIFY_MONOREPO_APP_ROOT` = `marketing`.
+- Build uses `amplify.yml` at repo root (monorepo format with `appRoot: marketing`).
+
 ## App Routes
 ### Admin
 - `/admin` legacy dashboard
