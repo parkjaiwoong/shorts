@@ -20,8 +20,6 @@ type FailLog = {
   videoId: string;
 };
 
-const FAIL_LOG_STORAGE_KEY = "adminLabFailLogs";
-
 export default function AdminLabLogs() {
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(true);
@@ -32,15 +30,19 @@ export default function AdminLabLogs() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      try {
-        const raw = window.localStorage.getItem(FAIL_LOG_STORAGE_KEY);
-        const stored = raw ? (JSON.parse(raw) as FailLog[]) : [];
-        setLogs(stored);
-      } catch {
-        setLogs([]);
-      }
-      setIsLoading(false);
-    }, 600);
+      const fetchLogs = async () => {
+        try {
+          const response = await fetch("/api/admin/logs/failures", { cache: "no-store" });
+          const payload = (await response.json()) as { logs?: FailLog[] };
+          setLogs(payload.logs ?? []);
+        } catch {
+          setLogs([]);
+        } finally {
+          setIsLoading(false);
+        }
+      };
+      void fetchLogs();
+    }, 400);
     return () => clearTimeout(timer);
   }, []);
 
@@ -58,20 +60,21 @@ export default function AdminLabLogs() {
   };
 
   const handleIgnore = (log: FailLog) => {
-    setLogs((prev) => {
-      const next = prev.map((item) =>
-        item.id === log.id ? { ...item, status: "IGNORED" } : item
-      );
+    const update = async () => {
       try {
-        window.localStorage.setItem(
-          FAIL_LOG_STORAGE_KEY,
-          JSON.stringify(next)
-        );
+        await fetch("/api/admin/logs/failures", {
+          method: "PATCH",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ id: log.id, status: "IGNORED" })
+        });
       } catch {
         // ignore
       }
-      return next;
-    });
+    };
+    setLogs((prev) =>
+      prev.map((item) => (item.id === log.id ? { ...item, status: "IGNORED" } : item))
+    );
+    void update();
     setActionMessage("무시 처리됨");
   };
 

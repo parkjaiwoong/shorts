@@ -226,3 +226,55 @@ class UploadLog(Base):
     )
 
     video_asset: Mapped["VideoAsset"] = relationship(back_populates="upload_logs")
+
+
+class Client(Base):
+    __tablename__ = "clients"
+    __table_args__ = (Index("ix_clients_name", "name"),)
+
+    id: Mapped[uuid.UUID] = mapped_column(
+        UUID(as_uuid=True), primary_key=True, default=uuid.uuid4
+    )
+    name: Mapped[str] = mapped_column(String(160), nullable=False)
+    phone: Mapped[str | None] = mapped_column(String(40), nullable=True)
+    location: Mapped[str | None] = mapped_column(String(120), nullable=True)
+    default_cta: Mapped[str | None] = mapped_column(Text, nullable=True)
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=datetime.utcnow
+    )
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=datetime.utcnow, onupdate=datetime.utcnow
+    )
+
+    processed_videos: Mapped[list["ProcessedVideo"]] = relationship(
+        back_populates="client", cascade="all, delete-orphan"
+    )
+
+
+class ProcessedVideo(Base):
+    __tablename__ = "processed_videos"
+    __table_args__ = (
+        Index("ix_processed_videos_client_id", "client_id"),
+        Index("ix_processed_videos_status", "status"),
+    )
+
+    id: Mapped[uuid.UUID] = mapped_column(
+        UUID(as_uuid=True), primary_key=True, default=uuid.uuid4
+    )
+    client_id: Mapped[uuid.UUID] = mapped_column(
+        UUID(as_uuid=True), ForeignKey("clients.id"), nullable=False
+    )
+    raw_filename: Mapped[str] = mapped_column(String(255), nullable=False)
+    raw_path: Mapped[str] = mapped_column(Text, nullable=False)
+    processed_path: Mapped[str | None] = mapped_column(Text, nullable=True)
+    caption: Mapped[str | None] = mapped_column(Text, nullable=True)
+    status: Mapped[str] = mapped_column(String(40), default="PROCESSED", nullable=False)
+    error_message: Mapped[str | None] = mapped_column(Text, nullable=True)
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=datetime.utcnow
+    )
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=datetime.utcnow, onupdate=datetime.utcnow
+    )
+
+    client: Mapped["Client"] = relationship(back_populates="processed_videos")

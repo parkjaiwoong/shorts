@@ -9,8 +9,10 @@ from sqlalchemy.orm import Session, sessionmaker
 
 from models import (
     AffiliateLink,
+    Client,
     PipelineStatus,
     Product,
+    ProcessedVideo,
     UploadLog,
     UploadStatus,
     VideoAsset,
@@ -352,3 +354,89 @@ class DatabaseManager:
             if platform:
                 stmt = stmt.where(UploadLog.platform == platform)
             return session.scalars(stmt).all()
+
+    def list_clients(self) -> Iterable[Client]:
+        with self._session() as session:
+            return session.scalars(select(Client).order_by(Client.created_at.desc())).all()
+
+    def get_client(self, client_id) -> Client | None:
+        with self._session() as session:
+            return session.get(Client, client_id)
+
+    def create_client(
+        self,
+        name: str,
+        phone: str | None = None,
+        location: str | None = None,
+        default_cta: str | None = None,
+    ) -> Client:
+        with self._session() as session:
+            client = Client(
+                name=name,
+                phone=phone,
+                location=location,
+                default_cta=default_cta,
+            )
+            session.add(client)
+            session.commit()
+            session.refresh(client)
+            return client
+
+    def update_client(
+        self,
+        client_id,
+        name: str | None = None,
+        phone: str | None = None,
+        location: str | None = None,
+        default_cta: str | None = None,
+    ) -> Client | None:
+        with self._session() as session:
+            client = session.get(Client, client_id)
+            if not client:
+                return None
+            if name is not None:
+                client.name = name
+            if phone is not None:
+                client.phone = phone
+            if location is not None:
+                client.location = location
+            if default_cta is not None:
+                client.default_cta = default_cta
+            session.add(client)
+            session.commit()
+            session.refresh(client)
+            return client
+
+    def delete_client(self, client_id) -> bool:
+        with self._session() as session:
+            client = session.get(Client, client_id)
+            if not client:
+                return False
+            session.delete(client)
+            session.commit()
+            return True
+
+    def create_processed_video(
+        self,
+        client_id,
+        raw_filename: str,
+        raw_path: str,
+        processed_path: str | None = None,
+        caption: str | None = None,
+        status: str = "PROCESSED",
+        error_message: str | None = None,
+    ) -> ProcessedVideo:
+        with self._session() as session:
+            record = ProcessedVideo(
+                client_id=client_id,
+                raw_filename=raw_filename,
+                raw_path=raw_path,
+                processed_path=processed_path,
+                caption=caption,
+                status=status,
+                error_message=error_message,
+            )
+            session.add(record)
+            session.commit()
+            session.refresh(record)
+            return record

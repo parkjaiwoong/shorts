@@ -1,303 +1,364 @@
 "use client";
 
-import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 
-type VideoStatus = "READY" | "PROCESSED" | "UPLOADED" | "FAILED";
-type ProcessStep = "IDLE" | "PROCESSING" | "PROCESSED" | "FAILED";
-
-type VideoItem = {
+type ClientItem = {
   id: string;
-  title: string;
-  duration: string;
-  createdAt: string;
-  status: VideoStatus;
-  thumbnailUrl?: string;
+  name: string;
+  phone: string;
+  location: string;
+  default_cta: string;
 };
 
-const MOCK_VIDEO_MAP: Record<string, VideoItem> = {
-  "vid-001": {
-    id: "vid-001",
-    title: "A치킨_할인_쇼츠_20250101.mp4",
-    duration: "00:31",
-    createdAt: "2025-01-01 10:12",
-    status: "READY"
-  },
-  "vid-002": {
-    id: "vid-002",
-    title: "B치킨_리뷰_쇼츠_20250102.mp4",
-    duration: "00:28",
-    createdAt: "2025-01-02 14:05",
-    status: "PROCESSED"
-  },
-  "vid-003": {
-    id: "vid-003",
-    title: "C치킨_배달_쇼츠_20250103.mp4",
-    duration: "00:34",
-    createdAt: "2025-01-03 09:40",
-    status: "UPLOADED"
-  },
-  "vid-004": {
-    id: "vid-004",
-    title: "D치킨_리치텍스트_쇼츠_20250104.mp4",
-    duration: "00:29",
-    createdAt: "2025-01-04 11:22",
-    status: "FAILED"
-  }
+type RawVideo = {
+  videoId: string;
+  customerId: string;
+  name: string;
+  size: number;
+  createdAt: string;
+};
+
+type FontItem = {
+  name: string;
+  path: string;
 };
 
 export default function AdminLabEditor() {
-  const router = useRouter();
-  const params = useSearchParams();
-  const videoId = params.get("videoId") || "";
-  const [video, setVideo] = useState<VideoItem | null>(null);
-  const [captionsEnabled, setCaptionsEnabled] = useState(true);
-  const [captionTemplate, setCaptionTemplate] = useState("기본");
-  const [bgmEnabled, setBgmEnabled] = useState(true);
-  const [bgmPreset, setBgmPreset] = useState("preset_01");
-  const [platforms, setPlatforms] = useState({
-    youtube: true,
-    tiktok: false,
-    instagram: false
-  });
-  const [step, setStep] = useState<ProcessStep>("IDLE");
+  const [clients, setClients] = useState<ClientItem[]>([]);
+  const [videos, setVideos] = useState<RawVideo[]>([]);
+  const [fonts, setFonts] = useState<FontItem[]>([]);
+  const [clientId, setClientId] = useState("");
+  const [videoId, setVideoId] = useState("");
   const [message, setMessage] = useState("");
-  const [error, setError] = useState("");
+  const [isProcessing, setIsProcessing] = useState(false);
+  const [qcTest, setQcTest] = useState<"" | "audio_missing" | "resolution_mismatch">("");
+  const [fontPath, setFontPath] = useState("");
+  const [fontSize, setFontSize] = useState(56);
+  const [captionInput, setCaptionInput] = useState("");
+  const [previewUrl, setPreviewUrl] = useState("");
+  const [isPreviewing, setIsPreviewing] = useState(false);
+  const [isGeneratingCaption, setIsGeneratingCaption] = useState(false);
+  const [removeWatermark, setRemoveWatermark] = useState(false);
 
-  const selectedPlatforms = useMemo(
-    () =>
-      Object.entries(platforms)
-        .filter(([, enabled]) => enabled)
-        .map(([key]) => key),
-    [platforms]
+  const selectedClient = useMemo(
+    () => clients.find((client) => client.id === clientId) || null,
+    [clients, clientId]
   );
 
-  useEffect(() => {
-    if (!videoId) {
-      setVideo(null);
+  const captionPreview = useMemo(() => {
+    if (!selectedClient) return "";
+    const parts = [selectedClient.name];
+    if (selectedClient.phone) parts.push(selectedClient.phone);
+    if (selectedClient.location) parts.push(selectedClient.location);
+    if (selectedClient.default_cta) parts.push(selectedClient.default_cta);
+    return parts.join(" · ");
+  }, [selectedClient]);
+
+  const captionValue = captionInput.trim() || captionPreview;
+
+  const loadClients = async () => {
+    const response = await fetch("/api/admin/clients", { cache: "no-store" });
+    const payload = (await response.json()) as { clients?: ClientItem[] };
+    setClients(payload.clients ?? []);
+  };
+
+  const loadFonts = async () => {
+    const response = await fetch("/api/admin/fonts", { cache: "no-store" });
+    const payload = (await response.json()) as { fonts?: FontItem[] };
+    const list = payload.fonts ?? [];
+    setFonts(list);
+    if (!fontPath && list.length > 0) {
+      setFontPath(list[0].path);
+    }
+  };
+
+  const loadVideos = async (customer: string) => {
+    if (!customer) {
+      setVideos([]);
       return;
     }
-    const found = MOCK_VIDEO_MAP[videoId];
-    if (found) {
-      setVideo(found);
-    } else {
-      setVideo({
-        id: videoId,
-        title: `선택 영상 ${videoId}`,
-        duration: "00:30",
-        createdAt: "2025-01-01 00:00",
-        status: "READY"
-      });
-    }
-  }, [videoId]);
+    const response = await fetch(
+      `/api/admin/videos/raw?customerId=${customer}`,
+      { cache: "no-store" }
+    );
+    const payload = (await response.json()) as { files?: RawVideo[] };
+    setVideos(payload.files ?? []);
+  };
 
   useEffect(() => {
-    if (step !== "PROCESSING") return;
-    const handler = (event: BeforeUnloadEvent) => {
-      event.preventDefault();
-      event.returnValue = "";
-    };
-    window.addEventListener("beforeunload", handler);
-    return () => window.removeEventListener("beforeunload", handler);
-  }, [step]);
+    void loadClients();
+    void loadFonts();
+  }, []);
+
+  useEffect(() => {
+    setVideoId("");
+    void loadVideos(clientId);
+  }, [clientId]);
 
   const handleProcess = async () => {
-    if (!video) {
-      setError("가공할 영상이 없습니다");
-      setStep("FAILED");
+    if (!clientId) {
+      setMessage("고객을 선택해주세요.");
       return;
     }
-    if (selectedPlatforms.length === 0) {
-      setError("플랫폼을 선택해주세요");
-      setStep("FAILED");
+    if (!videoId) {
+      setMessage("영상을 선택해주세요.");
       return;
     }
-    setError("");
-    setMessage("가공 실행 중...");
-    setStep("PROCESSING");
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-    setStep("PROCESSED");
-    setMessage("가공 완료");
-    setVideo((prev) => (prev ? { ...prev, status: "PROCESSED" } : prev));
+    setIsProcessing(true);
+    setMessage("");
+    try {
+      const response = await fetch("/api/admin/process/shorts", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          clientId,
+          videoId,
+          qcTest: qcTest || undefined,
+          caption: captionValue || undefined,
+          fontPath: fontPath || undefined,
+          fontSize: fontSize || undefined,
+          removeWatermark
+        })
+      });
+      const payload = (await response.json()) as { ok?: boolean; error?: string };
+      if (!response.ok || payload.ok === false) {
+        setMessage(payload.error || "가공 실패");
+        return;
+      }
+      setMessage("가공 완료: processed에 저장되었습니다.");
+    } catch (error) {
+      setMessage(error instanceof Error ? error.message : "가공 실패");
+    } finally {
+      setIsProcessing(false);
+    }
   };
 
-  const handlePreview = () => {
-    if (!video) {
-      setError("가공할 영상이 없습니다");
+  const handlePreview = async () => {
+    if (!clientId || !videoId) {
+      setMessage("미리보기를 위해 고객과 영상을 선택해주세요.");
       return;
     }
-    setError("");
-    setMessage("가공 결과 미리보기 (MVP)");
+    setIsPreviewing(true);
+    setMessage("");
+    try {
+      const response = await fetch("/api/admin/process/preview", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          clientId,
+          videoId,
+          caption: captionValue || undefined,
+          fontPath: fontPath || undefined,
+          fontSize,
+          removeWatermark
+        })
+      });
+      const payload = (await response.json()) as { ok?: boolean; dataUrl?: string; error?: string };
+      if (!response.ok || payload.ok === false || !payload.dataUrl) {
+        setMessage(payload.error || "미리보기 생성 실패");
+        return;
+      }
+      setPreviewUrl(payload.dataUrl);
+    } catch (error) {
+      setMessage(error instanceof Error ? error.message : "미리보기 생성 실패");
+    } finally {
+      setIsPreviewing(false);
+    }
   };
 
-  const handleComplete = () => {
-    if (!video || step !== "PROCESSED") return;
-    router.push(`/admin-lab/upload?videoId=${video.id}`);
+  const handleAiCaption = async () => {
+    if (!clientId) {
+      setMessage("자막 생성 전에 고객을 선택해주세요.");
+      return;
+    }
+    setIsGeneratingCaption(true);
+    setMessage("");
+    try {
+      const response = await fetch("/api/admin/ai/caption", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ clientId })
+      });
+      const payload = (await response.json()) as {
+        ok?: boolean;
+        caption?: string;
+        error?: string;
+        source?: string;
+        reason?: string;
+        model?: string;
+        tokenPresent?: boolean;
+      };
+      if (!response.ok || payload.ok === false || !payload.caption) {
+        setMessage(payload.error || "AI 자막 생성 실패");
+        return;
+      }
+      setCaptionInput(payload.caption);
+      const source = payload.source === "huggingface" ? "HuggingFace" : "로컬";
+      const detail =
+        payload.source === "huggingface"
+          ? `모델: ${payload.model || "unknown"}`
+          : `사유: ${payload.reason || "unknown"} · token=${payload.tokenPresent ? "있음" : "없음"}`;
+      setMessage(`AI 자막 생성: ${source} (${detail})`);
+    } catch (error) {
+      setMessage(error instanceof Error ? error.message : "AI 자막 생성 실패");
+    } finally {
+      setIsGeneratingCaption(false);
+    }
   };
+
+  const canProcess = Boolean(clientId && videoId && !isProcessing);
 
   return (
     <section className="lab-section">
       <div className="lab-page-header">
         <div>
           <h2>영상 가공</h2>
-          <p>자동/프리셋 기반 가공으로 업로드 준비 상태를 만듭니다.</p>
+          <p>고객 정보와 원본 영상을 선택해 쇼츠를 생성합니다.</p>
         </div>
       </div>
 
-      <div className="lab-edit-summary">
-        <div className="lab-edit-card">
-          <div className="lab-edit-thumb">
-            {video?.thumbnailUrl ? (
-              <img src={video.thumbnailUrl} alt={video.title} />
-            ) : (
-              <div className="lab-video-placeholder">미리보기</div>
-            )}
-            {video ? (
-              <span className={`lab-status-badge ${video.status.toLowerCase()}`}>
-                {video.status}
-              </span>
-            ) : null}
-          </div>
-          <div className="lab-edit-body">
-            <div className="lab-video-title">
-              {video?.title ?? "선택된 영상 없음"}
-            </div>
-            <div className="lab-video-meta">
-              길이 {video?.duration ?? "-"} · 생성 {video?.createdAt ?? "-"}
-            </div>
-            {!video ? (
-              <div className="lab-helper warning">가공할 영상이 없습니다</div>
-            ) : null}
-          </div>
+      <div className="lab-card" style={{ marginTop: 16 }}>
+        <div style={{ fontWeight: 600, marginBottom: 12 }}>필수 선택</div>
+        <div className="lab-form" style={{ maxWidth: 520 }}>
+          <label>
+            고객 선택 (필수)
+            <select
+              value={clientId}
+              onChange={(event) => setClientId(event.target.value)}
+            >
+              <option value="">고객을 선택하세요</option>
+              {clients.map((client) => (
+                <option key={client.id} value={client.id}>
+                  {client.name}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label>
+            원본 영상 선택 (필수)
+            <select
+              value={videoId}
+              onChange={(event) => setVideoId(event.target.value)}
+            >
+              <option value="">영상을 선택하세요</option>
+              {videos.map((video) => (
+                <option key={video.videoId} value={video.videoId}>
+                  {video.name}
+                </option>
+              ))}
+            </select>
+          </label>
         </div>
       </div>
 
-      <div className="lab-edit-layout">
-        <div className="lab-edit-panel">
-          <h3>자막 설정</h3>
-          <div className="lab-checklist">
-            <label>
-              <input
-                type="checkbox"
-                checked={captionsEnabled}
-                onChange={(event) => setCaptionsEnabled(event.target.checked)}
-              />
-              자막 사용
-            </label>
-            <label>
-              자막 템플릿
-              <select
-                value={captionTemplate}
-                onChange={(event) => setCaptionTemplate(event.target.value)}
-                disabled={!captionsEnabled}
-              >
-                <option value="기본">기본</option>
-                <option value="강조형">강조형</option>
-                <option value="심플">심플</option>
-              </select>
-            </label>
+      <div className="lab-card" style={{ marginTop: 16 }}>
+        <div style={{ fontWeight: 600, marginBottom: 8 }}>자막/폰트 설정</div>
+        <div className="lab-form" style={{ maxWidth: 520 }}>
+          <label>
+            자막 내용 (수정 가능)
+            <textarea
+              rows={1}
+              wrap="off"
+              value={captionInput}
+              placeholder={captionPreview || "고객을 선택하면 기본 자막이 생성됩니다."}
+              onChange={(event) => setCaptionInput(event.target.value)}
+              style={{
+                fontSize: 18,
+                lineHeight: 1.6,
+                whiteSpace: "pre",
+                overflowX: "auto",
+                width: "520px",
+                maxWidth: "100%"
+              }}
+            />
+          </label>
+          <div className="lab-action-row" style={{ marginTop: 8 }}>
+            <button className="btn" onClick={handleAiCaption} disabled={isGeneratingCaption}>
+              {isGeneratingCaption ? "AI 생성 중..." : "AI 자막 생성"}
+            </button>
+            <button className="btn" onClick={() => setCaptionInput(captionPreview)}>
+              기본 자막 적용
+            </button>
           </div>
-
-          <h3>배경 사운드</h3>
-          <div className="lab-checklist">
-            <label>
-              <input
-                type="checkbox"
-                checked={bgmEnabled}
-                onChange={(event) => setBgmEnabled(event.target.checked)}
-              />
-              배경음 사용
-            </label>
-            <label>
-              사운드 프리셋
-              <select
-                value={bgmPreset}
-                onChange={(event) => setBgmPreset(event.target.value)}
-                disabled={!bgmEnabled}
-              >
-                <option value="none">none</option>
-                <option value="preset_01">preset_01</option>
-                <option value="preset_02">preset_02</option>
-              </select>
-            </label>
-          </div>
-
-          <h3>플랫폼 포맷 선택</h3>
-          <div className="lab-checklist">
-            <label>
-              <input
-                type="checkbox"
-                checked={platforms.youtube}
-                onChange={(event) =>
-                  setPlatforms((prev) => ({
-                    ...prev,
-                    youtube: event.target.checked
-                  }))
-                }
-              />
-              YouTube Shorts
-            </label>
-            <label>
-              <input
-                type="checkbox"
-                checked={platforms.tiktok}
-                onChange={(event) =>
-                  setPlatforms((prev) => ({
-                    ...prev,
-                    tiktok: event.target.checked
-                  }))
-                }
-              />
-              TikTok
-            </label>
-            <label>
-              <input
-                type="checkbox"
-                checked={platforms.instagram}
-                onChange={(event) =>
-                  setPlatforms((prev) => ({
-                    ...prev,
-                    instagram: event.target.checked
-                  }))
-                }
-              />
-              Instagram Reels
-            </label>
-          </div>
-        </div>
-
-        <div className="lab-edit-preview">
-          <div className="lab-edit-preview-inner">
-            <div className="lab-video-placeholder">가공 결과 미리보기</div>
-          </div>
+          <label style={{ marginTop: 12 }}>
+            폰트 선택
+            <select value={fontPath} onChange={(event) => setFontPath(event.target.value)}>
+              {fonts.map((font) => (
+                <option key={font.path} value={font.path}>
+                  {font.name}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label>
+            폰트 크기 ({fontSize})
+            <input
+              type="range"
+              min={28}
+              max={96}
+              value={fontSize}
+              onChange={(event) => setFontSize(Number(event.target.value))}
+            />
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              checked={removeWatermark}
+              onChange={(event) => setRemoveWatermark(event.target.checked)}
+              style={{ marginRight: 8 }}
+            />
+            워터마크 제거
+          </label>
         </div>
       </div>
 
-      {error ? <div className="lab-helper warning">{error}</div> : null}
-      {message ? <div className="lab-helper">{message}</div> : null}
+      <div className="lab-card" style={{ marginTop: 16 }}>
+        <div style={{ fontWeight: 600, marginBottom: 8 }}>미리보기</div>
+        <div className="lab-action-row" style={{ marginBottom: 8 }}>
+          <button className="btn" onClick={handlePreview} disabled={isPreviewing}>
+            {isPreviewing ? "미리보기 생성 중..." : "미리보기 업데이트"}
+          </button>
+        </div>
+        {previewUrl ? (
+          <img src={previewUrl} alt="preview" style={{ maxWidth: 320 }} />
+        ) : (
+          <div className="lab-helper">미리보기를 생성하면 화면에 표시됩니다.</div>
+        )}
+      </div>
 
-      <div className="lab-action-row">
-        <button
-          className="btn primary"
-          onClick={handleProcess}
-          disabled={selectedPlatforms.length === 0 || step === "PROCESSING"}
-        >
-          가공 실행
-        </button>
-        <button className="btn" onClick={handlePreview}>
-          미리보기
+      <div className="lab-card" style={{ marginTop: 16 }}>
+        <div style={{ fontWeight: 600, marginBottom: 8 }}>QA 테스트 옵션</div>
+        <div className="lab-form" style={{ maxWidth: 420 }}>
+          <label>
+            강제 QC 실패
+            <select
+              value={qcTest}
+              onChange={(event) =>
+                setQcTest(event.target.value as "" | "audio_missing" | "resolution_mismatch")
+              }
+            >
+              <option value="">사용 안 함</option>
+              <option value="audio_missing">오디오 없음</option>
+              <option value="resolution_mismatch">해상도 불일치</option>
+            </select>
+          </label>
+          <div className="lab-helper">테스트 용도이며 실제 파일에는 영향이 없습니다.</div>
+        </div>
+      </div>
+
+      <div className="lab-action-row" style={{ marginTop: 16 }}>
+        <button className="btn primary" disabled={!canProcess} onClick={handleProcess}>
+          {isProcessing ? "가공 중..." : "가공 실행"}
         </button>
         <button
           className="btn"
-          onClick={handleComplete}
-          disabled={step !== "PROCESSED"}
+          onClick={() => loadVideos(clientId)}
+          disabled={isProcessing}
         >
-          가공 완료
-        </button>
-        <button className="btn ghost" onClick={() => router.back()}>
-          뒤로가기
+          영상 새로고침
         </button>
       </div>
+      {message ? <div className="lab-helper">{message}</div> : null}
     </section>
   );
 }

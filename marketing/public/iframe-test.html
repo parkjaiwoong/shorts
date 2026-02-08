@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iframe 임베드 테스트</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: white;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h1 {
+      margin-top: 0;
+      color: #111827;
+    }
+    .iframe-wrapper {
+      margin-top: 24px;
+      border: 2px solid #e5e7eb;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #f9fafb;
+    }
+    iframe {
+      width: 100%;
+      height: 800px;
+      border: none;
+      display: block;
+    }
+    .info {
+      margin-top: 16px;
+      padding: 12px;
+      background: #eff6ff;
+      border-left: 4px solid #2563eb;
+      border-radius: 4px;
+      font-size: 14px;
+      color: #1e40af;
+    }
+    .warning {
+      margin-top: 16px;
+      padding: 12px;
+      background: #fef3c7;
+      border-left: 4px solid #f59e0b;
+      border-radius: 4px;
+      font-size: 14px;
+      color: #92400e;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>쇼핑몰 iframe 임베드 테스트</h1>
+    <p>아래 iframe에 쇼핑몰 페이지가 표시됩니다.</p>
+    
+    <div class="info">
+      <strong>✅ 테스트 방법:</strong><br>
+      1. "바로 구매하기" 버튼을 클릭해보세요<br>
+      2. 새 창/탭에서 파트너스 링크로 이동하는지 확인하세요<br>
+      3. 파트너스 링크에 파트너 코드와 UTM이 포함되어 있는지 확인하세요
+    </div>
+    
+    <div class="warning">
+      <strong>⚠️ 주의:</strong><br>
+      - 현재 설정은 같은 도메인(SAMEORIGIN)에서만 iframe 허용<br>
+      - 다른 도메인에서 사용하려면 next.config.mjs의 X-Frame-Options를 수정하세요
+    </div>
+    
+    <div class="iframe-wrapper">
+      <iframe 
+        src="http://localhost:3000/shop/mall-001"
+        title="쇼핑몰 미리보기"
+        allowfullscreen
+      ></iframe>
+    </div>
+    
+    <div style="margin-top: 24px; padding: 16px; background: #f3f4f6; border-radius: 8px;">
+      <h3 style="margin-top: 0;">다른 쇼핑몰 테스트:</h3>
+      <button onclick="changeMall('mall-001')" style="margin: 4px; padding: 8px 16px; cursor: pointer;">
+        mall-001
+      </button>
+      <button onclick="changeMall('mall-002')" style="margin: 4px; padding: 8px 16px; cursor: pointer;">
+        mall-002
+      </button>
+      <p style="margin-top: 12px; font-size: 13px; color: #6b7280;">
+        현재 URL: <span id="current-url">http://localhost:3000/shop/mall-001</span>
+      </p>
+    </div>
+  </div>
+  
+  <script>
+    function changeMall(mallId) {
+      const iframe = document.querySelector('iframe');
+      const url = `http://localhost:3000/shop/${mallId}`;
+      iframe.src = url;
+      document.getElementById('current-url').textContent = url;
+    }
+  </script>
+</body>
+</html>
