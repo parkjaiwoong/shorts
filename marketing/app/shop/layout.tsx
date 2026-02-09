@@ -1,9 +1,12 @@
+import { Suspense } from "react";
 import ShopUtmLogger from "./ShopUtmLogger";
 
 export default function ShopLayout({ children }: { children: React.ReactNode }) {
   return (
     <div style={{ minHeight: "100vh", background: "#0f1117", color: "#e5e7eb" }}>
-      <ShopUtmLogger />
+      <Suspense fallback={null}>
+        <ShopUtmLogger />
+      </Suspense>
       <header
         style={{
           padding: "20px 24px",
