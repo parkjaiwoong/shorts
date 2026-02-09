@@ -5,6 +5,8 @@ type PageProps = {
   params: { mallId: string };
 };
 
+export const dynamic = "force-dynamic";
+
 export default async function ShopMallPage({ params }: PageProps) {
   const malls = await readMalls();
   const mall = malls.find((item) => item.id === params.mallId);

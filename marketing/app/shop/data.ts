@@ -24,12 +24,16 @@ export type Mall = {
 const DATA_PATH = path.join(process.cwd(), "storage", "shops", "malls.json");
 
 export const readMalls = async (): Promise<Mall[]> => {
-  if (!existsSync(DATA_PATH)) {
+  try {
+    if (!existsSync(DATA_PATH)) {
+      return [];
+    }
+    const raw = await fs.readFile(DATA_PATH, "utf-8");
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed?.malls) ? parsed.malls : [];
+  } catch {
     return [];
   }
-  const raw = await fs.readFile(DATA_PATH, "utf-8");
-  const parsed = JSON.parse(raw);
-  return Array.isArray(parsed?.malls) ? parsed.malls : [];
 };
 
 export const buildPartnerUrl = (
